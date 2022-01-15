@@ -58,6 +58,3 @@ theme:
         icon: material/toggle-switch
         name: Αλλαγή σε ανοιχτό θέμα
   titles_only: true
-nav:
-  - index.md
-  - support/index.md
