@@ -29,3 +29,13 @@ open http://localhost:7101
 
     **Προσοχή**: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η
     μεταβλητή συστήματος `PATH` των Windows.
+
+
+## Upload to ts
+
+```shell
+sudo -i
+cd /srv/docs/windows
+git fetch
+git reset --hard origin/ts-docs
+```
