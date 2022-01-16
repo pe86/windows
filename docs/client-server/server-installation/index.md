@@ -21,13 +21,10 @@
 Η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη.
 
 ### Έναρξη εγκατάστασης των Windows [![](03-boot-in-progress.png)](03-boot-in-progress.png)
-{.clear}
 
 Αρχικά, η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη
 
-## Ρύθμιση γλώσσας
-
-[![](04-language-settings.png)](04-language-settings.png)
+## Ρύθμιση γλώσσας[![](04-language-settings.png)](04-language-settings.png)
 
 - Κατά την αρχική εγκατάσταση ζητείται η ρύθμιση των Time and currency format, διαλέξτε ***Greek (Greece)*** και Keyboard or input method, επιλέξτε ***US***.
 
@@ -58,7 +55,7 @@
 
 - Στην περίπτωση δύο σκληρών δίσκων, επιλέγουμε το δίσκο που αναφέρεται ως ***Drive 0*** στον οποίο θα γίνει η εγκατάσταση και με την επιλογή ***New*** δημιουργούμε τις απαραίτητες διαμερίσεις.
 
-### Διαμερίσεις που δημουργούνται από τα Windows[![](11-select-partition.png)](11-select-partition.png)
+### Διαμερίσεις[![](11-select-partition.png)](11-select-partition.png)
 
 - Αυτομάτως θα δημιουργηθούν στο Drive 0 από την εγκατάσταση των Windows, επιπλέον των διαμερίσεων που επιθυμούμε, οι τρεις (3) διαμερίσεις: Recovery, System και MSR (Reserved).
 
