@@ -1,0 +1,14 @@
+# Εγκατάσταση εξυπηρετητή
+
+Τοποθετήστε το CD/DVD/USB εγκατάστασης MS-Windows Server στον εξυπηρετητή και ρυθμίστε το UEFI ή το BIOS (ή πατήστε F12 για να βγει το boot menu) ώστε να ξεκινάει από αυτό. Στους διαλόγους που θα εμφανιστούν, κάντε τις παρακάτω επιλογές.
+
+!!! tip "Πληροφορία"
+    Σε περίπτωση που δεν διαθέτετε μέσα εγκατάστασης, μπορείτε να "κατεβάσετε" ένα evaluation σε μορφή ISO από την [ιστοσελίδα της Microsoft](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019).
+
+## Προετοιμασία εγκατάστασης
+
+[![](server-installation/install-01-boot-from-media.png)](server-installation/install-01-boot-from-media.png)
+
+- Εκκίνηση από το CD/DVD/USB
+
+Πατήστε οποιοδήποτε πλήκτρο για να πραγματοποιηθεί η εκκίνηση από το CD/DVD/USB
