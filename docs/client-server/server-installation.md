@@ -17,7 +17,8 @@
 
 - Φόρτωση των απαραίτητων αρχείων.
 
-Η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη {.clear}
+Η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη 
+{.clear}
 
 [![](server-installation/install-03-boot-in-progress.png)](server-installation/install-03-boot-in-progress.png)
 
