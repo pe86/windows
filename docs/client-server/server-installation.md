@@ -12,3 +12,15 @@
 - Εκκίνηση από το CD/DVD/USB
 
 Πατήστε οποιοδήποτε πλήκτρο για να πραγματοποιηθεί η εκκίνηση από το CD/DVD/USB
+
+[![](server-installation/install-02-boot-in-progress.png)](server-installation/install-02-boot-in-progress.png)
+
+- Φόρτωση των απαραίτητων αρχείων.
+
+Η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη
+
+[![](server-installation/install-03-boot-in-progress.png)](server-installation/install-03-boot-in-progress.png)
+
+- Έναρξη εγκατάστασης των Windows
+
+Αρχικά, η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη
