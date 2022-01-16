@@ -17,10 +17,21 @@
 
 - Φόρτωση των απαραίτητων αρχείων.
 
-Η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη
+Η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη {.clear}
 
 [![](server-installation/install-03-boot-in-progress.png)](server-installation/install-03-boot-in-progress.png)
 
 - Έναρξη εγκατάστασης των Windows
 
 Αρχικά, η διαδικασία δεν απαιτεί κάποια παρέμβαση από το χρήστη
+
+## Ρύθμιση γλώσσσας
+
+[![](server-installation/install-04-language-settings.png)](server-installation/install-04-language-settings.png)
+
+- Κατά την αρχική εγκατάσταση ζητείται η ρύθμιση των Time and currency format, διαλέξτε Greek (Greece) και Keyboard or input method, επιλέξτε US.
+
+## Εκκίνηση Εγκατάστασης
+
+- Επιλέξτε ***Install Now***
+
