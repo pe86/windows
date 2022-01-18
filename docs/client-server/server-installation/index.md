@@ -125,7 +125,7 @@
 
 ## 8. Δικτυακές ρυθμίσεις
 
-### Ορισμός του τοπικού δικτύου ως ιδιωτικού[![](17a-set-private-network.png)](17a-set-private-network.png)
+### Ορισμός του τοπικού δικτύου ως ιδιωτικού(#private-network)[![](17a-set-private-network.png)](17a-set-private-network.png)
 
 Κατά την 1η εκκίνηση ο εξυπηρετητής συνδέεται στο τοπικό δίκτυο και αποκτά μία
   δυναμική IP μέσω πρωτοκόλλου DHCP. Στην ερώτηση του λειτουργικού συστήματος
@@ -185,17 +185,20 @@ DHCP, IPv6 enabled*** και στη συνέχεια με ***δεξί κλικ**
     194.63.237.4) θα πρέπει να δηλωθούν στις ιδιότητες του Internet Protocol
     Version 4 (TCP/IPv4) Properties
 
-!!! tip "Συμβουλή"
-    Οι πιο προχωρημένοι μπορούν να ορίσουν τις παραπάνω ρυθμίσεις με PowerShell
+!!! tip "PowerShell: Δικτυακές ρυθμίσεις"
     ```shell
-        $interface=Get-NetIPInterface -AddressFamily IPv4 -InterfaceAlias "Ethernet*"
-        New-NetIPAddress -InterfaceAlias $interface.InterfaceAlias -IPAddress 10.50.40.10 -PrefixLength 24 -DefaultGateway 10.50.40.1
-        Set-DNSClientServerAddress -InterfaceIndex $interface.ifIndex -ServerAddresses 194.63.238.4,194.63.239.164
-        Set-NetConnectionProfile -InterfaceAlias $interface.InterfaceAlias -NetworkCategory "Private"
+    $interface=Get-NetIPInterface -AddressFamily IPv4 -InterfaceAlias "Ethernet*"
+        
+    New-NetIPAddress -InterfaceAlias $interface.InterfaceAlias -IPAddress 10.50.40.10 -PrefixLength 24 -DefaultGateway 10.50.40.1
+        
+    Set-DNSClientServerAddress -InterfaceIndex $interface.ifIndex -ServerAddresses 194.63.238.4,194.63.239.164
+        
+    Set-NetConnectionProfile -InterfaceAlias $interface.InterfaceAlias -NetworkCategory "Private"
     ```
 
-### Ορισμός ονόματος υπολογιστή[![](20-set-computer-name.png)](20-set-computer-name.png)
+### Ορισμός ονόματος υπολογιστή
 
+[![](20-set-computer-name.png)](20-set-computer-name.png)
 
 Σε ότι αφορά το όνομα του υπολογιστή (computer name) μέσα από το `Server
 Manager` επιλέγοντας ***Local Server*** ▸ ***Computer Name*** ▸
@@ -215,8 +218,7 @@ OK. Ο windows server θα σας ζητήσει να πραγματοποιήσ
 
     - Αν στη σχολική μονάδα συνυπάρχουν δύο διαφορετικά εργαστήρια με ανεξάρτητο domain ή εξυπηρετητής LTSP προτείνεται να δίνονται διαφορετικά ονόματα στους εξυπηρετητές με αλλαγή του προθέματος για την αποφυγή προβλημάτων (πχ. αντί του προθέματος **srv-** να δίνεται πρόθεμα **srv1-** και **srv2-** στους δύο εξυπηρετητές αντίστοιχα).
 
-!!! tip "Συμβουλή"
-    Οι πιο προχωρημένοι μπορούν να ορίσουν τις παραπάνω ρυθμίσεις με PowerShell
+!!! tip "PowerShell: Μετονομασία εξυπηρετητή"
     ```shell
     Rename-Computer -NewName srv-2lyk-mesol -LocalCredential administrator -Restart
     ```
@@ -252,8 +254,7 @@ Windows 2016 Server χωρίς ενεργοποίηση. Η βέλτιστη μ�
 εξυπηρετητές των σχολικών εργαστηρίων είναι να πραγματοποιείται η διαδικασία
 μέσω διαδικτύου.
 
-!!! tip "Συμβουλή"
-    Οι πιο προχωρημένοι μπορούν να ορίσουν τις παραπάνω ρυθμίσεις πληκτρολογώντας σε γραμμή εντολών
+!!! tip "Γραμμή εντολών: Ενεργοποίηση άδειας"
     ```shell
     slui
     ```
@@ -286,15 +287,20 @@ Windows 2016 Server χωρίς ενεργοποίηση. Η βέλτιστη μ�
 
 Για την απενεργοποίηση απαιτείται το εργαλείο `Server Manager` και από το οποίο επιλέγετε ***Local Server*** και στη συνέχεια επιλέγετε ***IE Enhanced Security Configuration*** και κατόπιν ***On*** και τέλος απενεργοποιήστε ***Off***.
 
-!!! tip "Συμβουλή"
-    Εναλλακτικά μπορείτε να απενεργοποιήσετε το Internet Explorer Enhanced Security με powershell
+!!! tip "PowerShell: Απενεργοποίηση Internet Explorer Enhanced Security"
     ```shell
     function Disable-IEESC
+    
     $AdminKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}" $UserKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A8-37EF-4b3f-8CFC-4F3A74704073}"
+    
     Set-ItemProperty -Path $AdminKey -Name "IsInstalled" -Value 0
+    
     Set-ItemProperty -Path $UserKey -Name "IsInstalled" -Value 0
+    
     Stop-Process -Name Explorer
+    
     Write-Host "IE Enhanced Security Configuration (ESC) has been disabled." -ForegroundColor Green }
+    
     Disable-IEESC
     ```
 
