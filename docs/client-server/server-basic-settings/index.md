@@ -149,7 +149,7 @@ copies) των αρχείων που ανήκουν σε διαμοιραζόμ�
     - Από κάποιον σταθμό εργασίας πληκτρολογώντας **\\\\srv-2lyk-mesol**.
     - Και στις δύο περιπτώσεις πατήστε ***δεξί κλικ*** στο drive ή στο φάκελο, κατόπιν επιλέξτε το tab **Previous Versions** και τέλος στο κουμπί ***Restore***.
 
-!!! tip clear "PowerShell: Διαμοιρασμός φακέλου Users"
+!!! tip clear "PowerShell: Ενεργοποίηση Shadow Copies στη διαμέριση των χρηστών G:
     ```shell
     vssadmin add shadowstorage /for=G: /on=G: /maxsize=10%
 
