@@ -23,7 +23,7 @@
 
 - Με αυτόν τον τρόπο ενεργοποιείται η δυνατότητα Remote Desktop στον εξυπηρετητή και επιτρέπει εξ’ ορισμού την πρόσβαση σε όσους ανήκουν στο group **Administrators** καθώς και σε όσους λογαριασμούς χρηστών ή ομάδες χρηστών προσθέσετε με το ***Add***
 
-!!! tip clear "PowerShell: Ενεργοποίηση Remote Desktop"
+!!! powershell clear "PowerShell: Ενεργοποίηση Remote Desktop"
     ```shell
     Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
 
@@ -45,7 +45,7 @@
 - Επιλέξτε ***Change Advanced sharing settings***
 - Στο ιδιωτικό προφιλ, επιλέξτε **Turn on file and printer sharing**
 
-!!! tip clear "PowerShell: Ενεργοποίηση File and Print Sharing"
+!!! powershell clear "PowerShell: Ενεργοποίηση File and Print Sharing"
     ```shell
     Set-NetFirewallRule -DisplayGroup "File And Printer Sharing" -Enabled True -Profile Private
     ```
@@ -68,7 +68,7 @@
     - Η τοπική ομάδα (local group) Users του εξυπηρετητή έχει δικαιώματα ανάγνωσης στον συγκεκριμένο κατάλογο.
     - Ο φάκελος Users πλέον διαμοιράζεται και είναι προσβάσιμος στο σταθμό εργασίας ή στον εξυπηρετητή πατώντας **`Ctrl`**+**`R`** και πληκτρολογώντας την εντολή **\\\srv-2lyk-mesol\users**
 
-!!! tip clear "PowerShell: Διαμοιρασμός φακέλου Users"
+!!! powershell "PowerShell: Διαμοιρασμός φακέλου Users"
     ```shell
     mkdir g:\users
 
@@ -104,39 +104,33 @@ copies) των αρχείων που ανήκουν σε διαμοιραζόμ�
 
 [![](10-shadow-copies-via-server-manager.png)](010-shadow-copies-via-server-manager.png)
 
-Η υπηρεσία μπορεί να ρυθμιστεί από το εργαλείο διαχείρισης `Server Manager`, επιλέγοντας από το μενού ***Tools*** ▸ ***Computer Management***  και κατόπιν επιλέγοντας ***Disk Management***.
-
+Η υπηρεσία μπορεί να ρυθμιστεί από το εργαλείο διαχείρισης `Server Manager`, επιλέγοντας από το μενού ***Tools*** ▸ ***Computer Management***  και κατόπιν επιλέγοντας ***Disk Management***.  
 {.clear}
 
 [![](11-shadow-copies-select-disk.png)](11-shadow-copies-select-disk.png)
 
-Στη συνέχεια επιλέγετε τη διαμέριση που αντιστοιχεί στα αρχεία των χρηστών (στο παράδειγμα: Windows Users, δηλ. η 3η διαμέριση του 2ου δίσκου) και ***δεξί κλικ*** ▸ ***Properties***.
-
+Στη συνέχεια επιλέγετε τη διαμέριση που αντιστοιχεί στα αρχεία των χρηστών (στο παράδειγμα: Windows Users, δηλ. η 3η διαμέριση του 2ου δίσκου) και ***δεξί κλικ*** ▸ ***Properties***.  
 {.clear}
 
 [![](12-shadow-copies-enable.png)](12-shadow-copies-enable.png)
 
-Επιλέγετε το tab **Shadow Copies** και κατόπιν το κουμπί ***Enable***.
-
+Επιλέγετε το tab **Shadow Copies** και κατόπιν το κουμπί ***Enable***.  
 {.clear}
 
 [![](13-shadow-copies-schedule.png)](13-shadow-copies-schedule.png)
 
-Με την επιλογή ενεργοποίησης εμφανίζεται προειδοποιητικό μήνυμα αποδοχής, το οποίο αποδέχεστε πατώντας το κουμπί ***Yes***.
-
+Με την επιλογή ενεργοποίησης εμφανίζεται προειδοποιητικό μήνυμα αποδοχής, το οποίο αποδέχεστε πατώντας το κουμπί ***Yes***.  
 {.clear}
 
 [![](14-shadow-copies-settings.png)](14-shadow-copies-settings.png)
 
-Αποδεχθείτε τις προκαθορισμένες ρυθμίσεις πατώντας το ***Yes***, είτε τις αλλάζετε πατώντας το ***Settings***
-
+Αποδεχθείτε τις προκαθορισμένες ρυθμίσεις πατώντας το ***Yes***, είτε τις αλλάζετε πατώντας το ***Settings***  
 {.clear}
 
 [![](15-shadow-copies-size.png)](15-shadow-copies-size.png)
 
 Σε κάθε κατάτμηση που επιλέγεται εκ προοιμίου χώρος για τη λήψη αντιγράφων ίσος με το 10% του μεγέθους της.
-Στην περίπτωση που επιλέξετε να αλλάξετε τις προκαθορισμένες ρυθμίσεις, μπορείτε να ορίσετε το μέγιστο μέγεθος που θα χρησιμοποιείται για την αποθήκευση των Shadow Copies και επιπλέον πατώντας το ***Schedule*** μπορείτε να αλλάξετε το πότε θα λαμβάνονται τα αντίγραφα.
-
+Στην περίπτωση που επιλέξετε να αλλάξετε τις προκαθορισμένες ρυθμίσεις, μπορείτε να ορίσετε το μέγιστο μέγεθος που θα χρησιμοποιείται για την αποθήκευση των Shadow Copies και επιπλέον πατώντας το ***Schedule*** μπορείτε να αλλάξετε το πότε θα λαμβάνονται τα αντίγραφα.  
 {.clear}
 
 [![](16-shadow-copies-schedule.png)](16-shadow-copies-schedule.png)
@@ -149,7 +143,7 @@ copies) των αρχείων που ανήκουν σε διαμοιραζόμ�
     - Από κάποιον σταθμό εργασίας πληκτρολογώντας **\\\\srv-2lyk-mesol**.
     - Και στις δύο περιπτώσεις πατήστε ***δεξί κλικ*** στο drive ή στο φάκελο, κατόπιν επιλέξτε το tab **Previous Versions** και τέλος στο κουμπί ***Restore***.
 
-!!! tip clear "PowerShell: Ενεργοποίηση Shadow Copies στη διαμέριση των χρηστών G:
+!!! powershell clear "PowerShell: Ενεργοποίηση Shadow Copies στη διαμέριση των χρηστών G:
     ```shell
     vssadmin add shadowstorage /for=G: /on=G: /maxsize=10%
 
