@@ -125,7 +125,7 @@
 
 ## 8. Δικτυακές ρυθμίσεις
 
-### Ορισμός του τοπικού δικτύου ως ιδιωτικού(#private-network)[![](17a-set-private-network.png)](17a-set-private-network.png)
+### Ορισμός του τοπικού δικτύου ως ιδιωτικού {#private-network}[![](17a-set-private-network.png)](17a-set-private-network.png)
 
 Κατά την 1η εκκίνηση ο εξυπηρετητής συνδέεται στο τοπικό δίκτυο και αποκτά μία
   δυναμική IP μέσω πρωτοκόλλου DHCP. Στην ερώτηση του λειτουργικού συστήματος
@@ -185,7 +185,7 @@ DHCP, IPv6 enabled*** και στη συνέχεια με ***δεξί κλικ**
     194.63.237.4) θα πρέπει να δηλωθούν στις ιδιότητες του Internet Protocol
     Version 4 (TCP/IPv4) Properties
 
-!!! tip "PowerShell: Δικτυακές ρυθμίσεις"
+!!! powershell "PowerShell: Δικτυακές ρυθμίσεις"
     ```shell
     $interface=Get-NetIPInterface -AddressFamily IPv4 -InterfaceAlias "Ethernet*"
         
@@ -218,7 +218,7 @@ OK. Ο windows server θα σας ζητήσει να πραγματοποιήσ
 
     - Αν στη σχολική μονάδα συνυπάρχουν δύο διαφορετικά εργαστήρια με ανεξάρτητο domain ή εξυπηρετητής LTSP προτείνεται να δίνονται διαφορετικά ονόματα στους εξυπηρετητές με αλλαγή του προθέματος για την αποφυγή προβλημάτων (πχ. αντί του προθέματος **srv-** να δίνεται πρόθεμα **srv1-** και **srv2-** στους δύο εξυπηρετητές αντίστοιχα).
 
-!!! tip "PowerShell: Μετονομασία εξυπηρετητή"
+!!! powershell "PowerShell: Μετονομασία εξυπηρετητή"
     ```shell
     Rename-Computer -NewName srv-2lyk-mesol -LocalCredential administrator -Restart
     ```
@@ -287,7 +287,7 @@ Windows 2016 Server χωρίς ενεργοποίηση. Η βέλτιστη μ�
 
 Για την απενεργοποίηση απαιτείται το εργαλείο `Server Manager` και από το οποίο επιλέγετε ***Local Server*** και στη συνέχεια επιλέγετε ***IE Enhanced Security Configuration*** και κατόπιν ***On*** και τέλος απενεργοποιήστε ***Off***.
 
-!!! tip "PowerShell: Απενεργοποίηση Internet Explorer Enhanced Security"
+!!! powershell "PowerShell: Απενεργοποίηση Internet Explorer Enhanced Security"
     ```shell
     function Disable-IEESC
     
