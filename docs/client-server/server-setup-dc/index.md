@@ -25,3 +25,29 @@
     
     Προκειμένου ο εξυπηρετητής να μπορεί να απαντά και σε ερωτήματα DNS εκτός του Domain του οι DNS Servers του Π.Σ.Δ. θα οριστούν ως forwarders του DNS Server.
 
+!!! powershell "Αλλαγή DNS ρυθμίσεων εξυπηρετητή"
+    ```shell
+    $interface=Get-NetIPInterface -AddressFamily IPv4 -InterfaceAlias "Ethernet*"
+        
+    Set-DNSClientServerAddress -InterfaceIndex $interface.ifIndex -ServerAddresses 10.50.40.10
+
+## Εγκατάσταση Domain
+
+### Εκκίνηση Εγκατάστασης
+
+Στο Windows Server η διαδικασία εγκατάστασης ενός domain controller μπορεί
+να γίνει μέσω γραφικού περιβάλλοντος με χρήση του εργαλείου ```Server Manager``` ακολουθώντας τα παρακάτω βήματα:
+
+- Επιλέξτε το σύνδεσμο **Add roles and features** από την διεπαφή που προσφέρει το εργαλείο ```Server Manager``` με την έναρξή του.
+
+- Στην αρχική διεπαφή που εμφανίζεται (Add Roles and Features Wizard) επιλέγουμε ***Next***.
+
+- Επιλέξτε **Select a server from the server pool** και κατόπιν επιλέξτε τον εξυπηρετητή σας (πχ srv-2lyk-mesol).
+
+- Επιλέξτε την εγκατάσταση των **Active Directory Domain Services**.
+
+- Στο διάλογο για την εγκατάσταση απαιτούμενων features επιλέξτε ***Add Features***
+
+- Επιβεβαιώστε ότι έχει επιλεχθεί  Active Directory Domain Services
+
+
