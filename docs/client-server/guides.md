@@ -1,0 +1,7 @@
+# Οδηγοί χρήσης Windows Server & Active Directory
+
+- Στη σελίδα [AD DS Getting Started](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/ad-ds-getting-started) θα βρείτε αναλυτικές οδηγίες για τη φιλοσοφία του Active Directory, την εγκατάσταση και παραμετροποίησή του, τα εργαλεία διαχείρισής του, για το Network Time Protocol κτλ.
+- Στη σελίδα [Active Directory documentation](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/active-directory-overview) θα βρείτε αναλυτικές οδηγίες για όλες τις λειτουργίες του Active Directory.
+- Στη σελίδα [Planning GPO Deployment](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/planning-gpo-deployment) θα βρείτε οδηγίες για το σχεδιασμό και την υλοποίηση Group Policies.
+- Στη σελίδα [Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0](https://docs.microsoft.com/en-us/microsoft-desktop-optimization-pack/agpm/step-by-step-guide-for-microsoft-advanced-group-policy-management-40) θα βρείτε προχωρημένες τεχνικές για τη διαχείριση των πολιτικών
+- Στο εγχειρίδιο [TCP/IP Fundamentals for Microsoft Windows](http://www.microsoft.com/en-us/download/details.aspx?id=8781) θα βρείτε τον αναλυτικό τρόπο λειτουργίας του Windows Server 2008 ως προς τα TCP/IP δίκτυα και πιο συγκεκριμένα θέματα σχετικά με εργαλεία ελέγχου λειτουργίας του δικτύου, τη διευθυνσιοδότηση, Name Resolution - DNS κλπ. Αν και γραμμένο για εκδόσεις Windows Server 2008, η αρχιτεκτονική και οι εφαρμογές δεν έχουν αλλάξει στις νεότερες εκδόσεις.
