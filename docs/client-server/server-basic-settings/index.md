@@ -188,7 +188,8 @@ copies) των αρχείων που ανήκουν σε διαμοιραζόμ�
 !!! powershell clear "PowerShell: Ενεργοποίηση ρόλου Print Server"
     ```shell
     Install-WindowsFeature Print-Services
-
+    ```
+    
 !!! info "Πληροφορία"
     - Σε περίπτωση που διαθέτετε και άλλα συστήματα με Λ/Σ διαφορετικά από Windows, για να τυπώσετε θα πρέπει να έχετε ενεργό το πρωτόκολλο **SMB** (Samba Client), πχ. στο Ubuntu Linux αυτό είναι ενεργό. 
     
