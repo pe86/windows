@@ -154,7 +154,7 @@
     - Το  ***Start μενού***  ▸  ***Administrative Tools***  ▸  ***Server Manager*** 
     - Πληκτρολογώντας **`Windows Key`**+**`R`** και κατόπιν **`servermanager`**
 
-### Ορισμός δικτυακών παραμέτρων TCP/IP[![](18-tcpip-properties.png)](18-tcpip-properties.png)
+### Ορισμός δικτυακών παραμέτρων TCP/IP{#server-ip-dns-settings}[![](18-tcpip-properties.png)](18-tcpip-properties.png)
 
 [![](19-set-IP-DNS.png)](19-set-IP-DNS.png)
 
