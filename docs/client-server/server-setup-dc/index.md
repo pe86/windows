@@ -23,14 +23,15 @@
     εγκατάσταση του DNS Server ρόλου στον εξυπηρετητή για το Domain που θα
     δημιουργηθεί.
     
-    Προκειμένου ο εξυπηρετητής να μπορεί να απαντά και σε ερωτήματα DNS εκτός του Domain του οι DNS Servers του Π.Σ.Δ. θα οριστούν ως forwarders του DNS Server.
+    Προκειμένου ο εξυπηρετητής να μπορεί να απαντά και σε ερωτήματα DNS εκτός του Domain του οι DNS Servers του Π.Σ.Δ. θα οριστούν ως forwarders της υπηρεσίας DNS του DC.
 
-!!! powershell "Αλλαγή DNS ρυθμίσεων εξυπηρετητή"
+!!! powershell "PowerShell: Αλλαγή DNS ρυθμίσεων εξυπηρετητή"
     ```shell
     $interface=Get-NetIPInterface -AddressFamily IPv4 -InterfaceAlias "Ethernet*"
         
     Set-DNSClientServerAddress -InterfaceIndex $interface.ifIndex -ServerAddresses 10.50.40.10
     ```
+    Αντικαταστήστε όπου 10.50.40.10 την IP διεύθυνση του εξυπηρετητή σας.
 
 ## Εγκατάσταση Domain
 
@@ -146,7 +147,7 @@ Domain Services.
     Install-ADDSForest -DomainName 2lyk-mesol.ait.priv.sch.gr -DomainNetBIOSName 2lyk-mesol -InstallDNS
     ```
 
-## Ρύθμιση της υπηρεσίας DNS στον εξυπηρετητή
+## Ρύθμιση της υπηρεσίας DNS στον εξυπηρετητή(#dns-setup)
 
 !!! tip "Πληροφορία"
     Στον εξυπηρετητή του εργαστηρίου κατά την εγκατάσταση του Active Directory εγκαθίσταται και η υπηρεσία ονοματολογίας Domain Name System (DNS). Η υπηρεσία αυτή είναι θεμελιώδης για τη λειτουργία του ADDS και μπορεί να απαντήσει DNS ερωτήματα για την περιοχή **<όνομα σχολείου>.<νομαρχιακή ενότητα>.priv.sch.gr**, ενώ για την ομαλή επικοινωνία και με το διαδίκτυο είναι απαραίτητο να προωθεί τα DNS ερωτήματα (για τις υπόλοιπες περιοχές) τους DNS servers του Π.Σ.Δ., τους οποίους θα πρέπει να ρυθμιστεί ώστε να τους χρησιμοποιεί ως forwarders.
