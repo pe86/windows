@@ -18,7 +18,7 @@
 1. [Εγκατάσταση του λειτουργικού συστήματος του εξυπηρετητή](server-installation/index.md)
 2. [Βασικές ρυθμίσεις του εξυπηρετητή](server-basic-settings/index.md)
 3. [Ρύθμιση του εξυπηρετητή ως Domain Controller](server-setup-dc/index.md)
-4. [Διαμόρφωση πολιτικών του Domain](domain-policies.md)
+4. [Διαμόρφωση πολιτικών του Domain](domain-policy/index.md)
 5. [Εγκατάσταση του λειτουργικού συστήματος του σταθμού εργασίας](client-installation.md)
 6. [Σύνδεση του σταθμού εργασίας στο Domain](client-domain-join.md)
 7. [Εγκατάσταση επιπλέον λογισμικού (σε εξυπηρετητή ή σταθμό εργασίας)](software-installation.md)
