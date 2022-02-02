@@ -75,7 +75,7 @@
     New-SmbShare -Name "Users" -Path "G:\users" -FullAccess "Everyone"
     ```
 
-### Διαμοιρασμός εκτυπωτή
+### Διαμοιρασμός εκτυπωτή {printer-sharing}
 
 [![](09-printer-sharing.png)](09-printer-sharing.png)
 
