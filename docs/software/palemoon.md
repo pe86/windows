@@ -8,7 +8,7 @@
 
 Για να εγκαταστήσετε την εφαρμογή ακολουθήστε τα παρακάτω βήματα:
 
-- Μεταβείτε στην ιστοσελίδα https://www.palemoon.org/download.shtml και επιλέξτε ***Direct Download Installer*** για 32bit ή 64bit ανάλογα την έκδοση Windows που διαθέτετε.
+- Μεταβείτε στην ιστοσελίδα <https://www.palemoon.org/download.shtml> και επιλέξτε ***Direct Download Installer*** για 32bit ή 64bit ανάλογα την έκδοση Windows που διαθέτετε.
 
    !!! tip "Συμβουλή"
         Οι σύγχρονες εκδόσεις των Windows είναι x64, οπότε κατεβάζετε το εκτελέσιμο για την x64 (64bit έκδοση). Εάν διαθέτετε 32bit έκδοση Windows "κατεβάζετε" το x86 (32bit).

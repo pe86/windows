@@ -13,7 +13,7 @@
 
 Για να εγκαταστήσετε την παλιότερη έκδοση της εφαρμογής ακολουθήστε τις παρακάτω οδηγίες:
 
-- Μεταβείτε στην ιστοσελίδα των Internet Archives και κατεβάστε την παλιότερη έκδοση του flash player https://ia803201.us.archive.org/18/items/flashplayerarchive/pub/flashplayer/installers/archive/fp_32.0.0.344_archive.zip.
+- Μεταβείτε στην ιστοσελίδα των Internet Archives και κατεβάστε την παλιότερη έκδοση του flash player <https://ia803201.us.archive.org/18/items/flashplayerarchive/pub/flashplayer/installers/archive/fp_32.0.0.344_archive.zip>.
 - Αποσυμπιέστε το αρχείο.
 - Επιλέξτε το φάκελο **fp_32.0.0.344_archive** και κατόπιν το φάκελο **32.0.0.344**.
 - Κάντε διπλό κλικ στο εκτελέσιμο ```flashplayer32_0r0_344_win.exe```.

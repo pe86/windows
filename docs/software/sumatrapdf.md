@@ -6,7 +6,7 @@
 
 Για να εγκαταστήσετε την εφαρμογή ακολουθείστε τα παρακάτω βήματα:
 
-- Μεταβείτε στην ιστοσελίδα https://www.sumatrapdfreader.org/download-free-pdf-viewer
+- Μεταβείτε στην ιστοσελίδα <https://www.sumatrapdfreader.org/download-free-pdf-viewer>
 - Επιλέξτε να κατεβάσετε τον installer για την έκδοση Λ/Σ x64 ή x86 που διαθέτετε.
 
     !!! tip "Συμβουλή"

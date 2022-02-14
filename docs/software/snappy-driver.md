@@ -8,7 +8,7 @@
 
 Για να εγκαταστήσετε την εφαρμογή ακολουθήστε τα παρακάτω βήματα:
 
-- Μεταβείτε στην ιστοσελίδα https://sdi-tool.org/download/ και "κατεβάστε" την έκδοση **SDI Light** του ```Snappy Driver Installer``` επιλέγοντας ***Download***.
+- Μεταβείτε στην ιστοσελίδα <https://sdi-tool.org/download/> και "κατεβάστε" την έκδοση **SDI Light** του ```Snappy Driver Installer``` επιλέγοντας ***Download***.
 - Αποθηκεύστε το αρχείο .zip και στην συνέχεια κάντε το unzip και εκτελέστε το ```SDI_auto```.
 - Επιτρέψτε στην εφαρμογή ```SDI_x64_R1811``` να κάνει αλλαγές στη συσκευή σας επιλέγοντας ***ΝΑΙ***
 - Επιτρέψτε στην εφαρμογή ```Snappy Driver Installer``` να έχει πρόσβαση στα **☑ Private networks, such as my home or work network** πατώντας στο ***Allow access***.
