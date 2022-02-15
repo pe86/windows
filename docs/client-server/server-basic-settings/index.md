@@ -75,7 +75,7 @@
     New-SmbShare -Name "Users" -Path "G:\users" -FullAccess "Everyone"
     ```
 
-### Διαμοιρασμός εκτυπωτή {printer-sharing}
+### Διαμοιρασμός εκτυπωτή {#printer-sharing}
 
 [![](09-printer-sharing.png)](09-printer-sharing.png)
 
@@ -84,7 +84,7 @@
 Οι χρήστες που έχουν λογαριασμό στον εξυπηρετητή αυτομάτως θα μπορούν να τυπώσουν στον διαμοιραζόμενο εκτυπωτή.
 
 !!! info clear "Πληροφορία"
-    Για εγκατάσταση εκτυπωτών δείτε στο [περιφερειακά/εκτυπωτές](../peripherals/printers.md)
+    Για εγκατάσταση εκτυπωτών δείτε στο [περιφερειακά](../peripherals.md)
 
 ## Ενεργοποίηση υπηρεσίας shadow copies
 
@@ -157,7 +157,7 @@ copies) των αρχείων που ανήκουν σε διαμοιραζόμ�
     Register-ScheduledTask -TaskName ShadowCopy -Trigger $Trigger -Action $Action -Description "ShadowCopy of Users"
     ```
 
-## Ενεργοποίηση υπηρεσίας κεντρικής εκτύπωσης - Print Server
+## Ενεργοποίηση υπηρεσίας κεντρικής εκτύπωσης - Print Server {#print-server}
 
 Ο εξυπηρετητής του Σ.Ε.Π.Ε.Η.Υ. μπορεί να ρυθμιστεί ώστε να διαμοιράζει και να
 ενεργοποιήσει αυτόματα όλους τους συνδεδεμένους σε αυτόν εκτυπωτές στους
