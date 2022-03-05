@@ -8,7 +8,7 @@
 
 - [Αρχιτεκτονική](architecture.md)
 - [Αναμενόμενα οφέλη](advantages.md)
-- [Μειωνεκτήματα](disadvantages.md)
+- [Μειονεκτήματα](disadvantages.md)
 - [Ελάχιστες Απαιτήσεις υλικού Σ.Ε.Π.Ε.Η.Υ.](requirements.md)
 - [Έλεγχος Συμβατότητας υλικού εξυπηρετητή & σταθμών εργασίας](compatibility.md)
 
