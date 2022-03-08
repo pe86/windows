@@ -1,6 +1,6 @@
 # Πολιτικές Domain
 
-Σε κάθε σχολική μονάδα ο ενεργός κατάλογος (active directory) αναπτύσσεται σε ανεξάρτητο δέντρο (domain tree) και δάσος (domain forest) σε σχέση με τα υπόλοιπα σχολεία. Ο τομέας (Domain) είναι της μορφής <όνομα σχολείου>.<Νομαρχιακή Ενότητα>.priv.sch.gr πχ 2lyk-mesol.ait.priv.sch.gr. Η διαδικασία δημιουργίας της υποδομής Active Directory περιγράφεται στη συνέχεια.
+Σε κάθε σχολική μονάδα ο ενεργός κατάλογος (active directory) αναπτύσσεται σε ανεξάρτητο δέντρο (domain tree) και δάσος (domain forest) σε σχέση με τα υπόλοιπα σχολεία. Ο τομέας (Domain) είναι της μορφής priv.<όνομα σχολείου>.<Περιφερειακή Ενότητα>.sch.gr πχ priv.2lyk-mesol.ait.priv.sch.gr. Η διαδικασία δημιουργίας της υποδομής Active Directory περιγράφεται στη συνέχεια.
 
 ## Δόμηση Domain
 
@@ -8,7 +8,7 @@
 
 Τα αντικείμενα του Active Directory Domain (υπολογιστές και λογαριασμοί χρηστών) εντάσσονται σε Οργανωτικές Μονάδες (Organizational Units – OUs), με σκοπό την ευκολότερη ρύθμιση των παραμέτρων λειτουργίας τους και επομένως την αυξημένη λειτουργικότητα, ασφάλεια και απόδοση. Οι ρυθμίσεις λειτουργίας εφαρμόζονται με Πολιτικές Ομάδας (Group Policies). Στο γειτονικό διάγραμμα απεικονίζεται η προτεινόμενη δόμηση του Active Directory σε οργανωτικές μονάδες (OU’s). Στη συνέχεια αναλύεται κάθε τμήμα του, ώστε να γίνει κατανοητός ο τρόπος με τον οποίο μπορεί να αξιοποιηθεί η εν λόγω δομή. Η προτεινόμενη δομή μπορεί να προσαρμοστεί ανάλογα με τις ανάγκες διαχείρισης και τις λειτουργικές απαιτήσεις του κάθε σχολείου.
 
-Το domain **<όνομα σχολείου>.<Νομαρχιακή Ενότητα>.priv.sch.gr** πχ 2lyk-mesol.ait.priv.sch.gr, περιέχει μόνο το OU “Lab”, που περιλαμβάνει τους υπολογιστές και τους λογαριασμούς του σχολικού εργαστηρίου. Μπορεί μελλοντικά να ενσωματώσει επιπλέον OUs (π.χ. δεύτερο εργαστήριο, υπολογιστές και χρήστες γραφείων σχολείου) αν είναι επιθυμητή η επέκταση του domain σε όλο το σχολείο.
+Το domain **priv.<όνομα σχολείου>.<Νομαρχιακή Ενότητα>.sch.gr** πχ priv.2lyk-mesol.ait.sch.gr, περιέχει μόνο το OU “Lab”, που περιλαμβάνει τους υπολογιστές και τους λογαριασμούς του σχολικού εργαστηρίου. Μπορεί μελλοντικά να ενσωματώσει επιπλέον OUs (π.χ. δεύτερο εργαστήριο, υπολογιστές και χρήστες γραφείων σχολείου) αν είναι επιθυμητή η επέκταση του domain σε όλο το σχολείο.
 
 Κάτω από το OU “Computers” αποθηκεύονται μόνο οι υπολογιστές που ανήκουν στο σχολικό εργαστήριο και εφαρμόζονται μόνο τα τμήματα των group policies που αφορούν υπολογιστές (όπως και στα OU’s που βρίσκονται πιο χαμηλά στο δέντρο). Κάτω από το OU “Servers” αποθηκεύονται όλα τα υπολογιστικά συστήματα που παρέχουν κάποιο είδος υπηρεσίας στο εργαστήριο (π.χ. proxy server). Στην παρούσα μορφή των εργαστηρίων αυτό το OU δεν έχει μέλη, καθώς ο domain controller εξ’ ορισμού ανήκει σε ομώνυμο OU που βρίσκεται εκτός του δέντρου. Το OU “Workstations” περιέχει όλους τους σταθμούς εργασίας του σχολικού εργαστηρίου.
 
@@ -31,20 +31,20 @@
 
 Η κονσόλα διαχείρισης ```Active Directory Users and Computers``` είναι το εργαλεία διαχείρισης του Active Directory και με το οποίο διαμορφώνεται η επιθυμητή δομής OUs. Είναι διαθέσιμη επιλέγοντας **`Windows Key`** ▸ ***Administrative Tools*** ▸ ***Active Directory Users and Computers***.
 
-Στη συνέχεια επιλέγετε το προς διαμόρφωση domain **<όνομα σχολείου>.<Νομαρχιακή Ενότητα>.priv.sch.gr** πχ 2lyk-mesol.ait.priv.sch.gr και προσθέτουμε μια νέα οργανωτική μονάδα (OU) στον τομέα πχ 2lyk-mesol.ait.priv.sch.gr με  ***δεξί κλικ*** στο ***2lyk-mesol.ait.priv.sch.gr*** ▸ ***New*** ▸ ***Organizational Unit***. Προσθέτουμε την πρώτη οργανωτική μονάδα πχ με όνομα **Lab**. Αυτό επαναλαμβάνεται για όλες τις οργανωτικές μονάδες που περιγράψαμε προηγουμένως. Τελικά, από το γραφικό περιβάλλον της κονσόλας θα εμφανίζεται το διάγραμμα όλων των οργανωτικών μονάδων που δημιουργήθηκαν.
+Στη συνέχεια επιλέγετε το προς διαμόρφωση domain **priv.<όνομα σχολείου>.<Περιφερειακή Ενότητα>.sch.gr** πχ priv.2lyk-mesol.ait.sch.gr και προσθέτουμε μια νέα οργανωτική μονάδα (OU) στον τομέα πχ με  ***δεξί κλικ*** στο ***priv.2lyk-mesol.ait.sch.gr*** ▸ ***New*** ▸ ***Organizational Unit***. Προσθέτουμε την πρώτη οργανωτική μονάδα πχ με όνομα **Lab**. Αυτό επαναλαμβάνεται για όλες τις οργανωτικές μονάδες που περιγράψαμε προηγουμένως. Τελικά, από το γραφικό περιβάλλον της κονσόλας θα εμφανίζεται το διάγραμμα όλων των οργανωτικών μονάδων που δημιουργήθηκαν.
 
 !!! warning "Προσοχή"
     Τα OUs δημιουργούνται εξ ορισμού με προστασία από κατά λάθος διαγραφή. Για τη διαγραφή τους πρέπει στην κονσόλα διαχείρισης ```Active Directory Users and Computers``` αρχικά να ενεργοποιηθούν τα  ***View*** ▸ ***Advanced Features*** και έπειτα στις ιδιότητες του OU στην καρτέλα “Object” να απενεργοποιηθεί η ρύθμιση ***☑ Protect container from accidental deletion***.
 
 !!! powershell "PowerShell: Δημιουργία των απαραίτητων OUs"
     ```shell
-    New-ADOrganizationalUnit -Name "Workstations" -Path "DC=2lyk-mesol,DC=priv,DC=sch,DC=gr"
+    New-ADOrganizationalUnit -Name "Workstations" -Path "DC=priv,DC=2lyk-mesol,DC=sch,DC=gr"
 
-    New-ADOrganizationalUnit -Name "Administrative accounts" -Path "DC=2lyk-mesol,DC=priv,DC=sch,DC=gr"
+    New-ADOrganizationalUnit -Name "Administrative accounts" -Path "DC=priv,DC=2lyk-mesol,DC=sch,DC=gr"
 
-    New-ADOrganizationalUnit -Name "Shared accounts" -Path "DC=2lyk-mesol,DC=priv,DC=sch,DC=gr"
+    New-ADOrganizationalUnit -Name "Shared accounts" -Path "DC=priv,DC=2lyk-mesol,DC=sch,DC=gr"
     ```
-    Αντικαταστήστε το 2lyk-mesol με το όνομα του domain σας.
+    Αντικαταστήστε το 2lyk-mesol με το DNS όνομα του σχολείου σας στο ΠΣΔ.
 
 ## Πολιτικές ομάδας (group policies)
 
@@ -58,7 +58,7 @@
 
 ### Διαχείριση πολιτικών
 
-Η διαχείριση των πολιτικών πραγματοποιείται ξεκινώντας την κονσόλα ```Group Policy Management``` από το **`Windows Key`** ▸ ***Administrative Tools*** ▸ ***Active Directory Users and Computers*** ▸ ***Group Policy Management*** , όπου επιλέγουμε το προς διαμόρφωση domain πχ 2lyk-mesol.ait.priv.sch.gr.
+Η διαχείριση των πολιτικών πραγματοποιείται ξεκινώντας την κονσόλα ```Group Policy Management``` από το **`Windows Key`** ▸ ***Administrative Tools*** ▸ ***Active Directory Users and Computers*** ▸ ***Group Policy Management*** , όπου επιλέγουμε το προς διαμόρφωση domain πχ priv.2lyk-mesol.ait.sch.gr.
 
 Σύμφωνα με την προτεινόμενη δομή του Active Directory σε OU’s, είναι δυνατή η εφαρμογή πολιτικών ομάδας (Group Policies - GPOs), για την εφαρμογή ρυθμίσεων λειτουργίας των λογαριασμών χρηστών και υπολογιστών του τομέα. Ο τομέας με τη δημιουργία του περιλαμβάνει τις ακόλουθες δύο πολιτικές:
 
@@ -111,4 +111,4 @@
 !!! powershell "PowerShell: Εισαγωγή των προτεινόμενων πολιτικών ασφαλείας"
     import-gpo -BackupGpoName "SEPEHY Shared Accounts Policy" -TargetName "SEPEHY Shared Accounts Policy" -path c:\backups
 
-    New-GPLink -Target "OU=Lab,OU=Accounts,OU=Shared-Accounts,DC=2gym-mesol,DC=ait,DC-sch,DC=gr" -Name "SEPEHY Shared Accounts Policy" -LinkEnabled Yes -Enforced Yes -Order 1
+    New-GPLink -Target "OU=Lab,OU=Accounts,OU=Shared-Accounts,DC=priv,DC=2gym-mesol,DC=ait,DC-sch,DC=gr" -Name "SEPEHY Shared Accounts Policy" -LinkEnabled Yes -Enforced Yes -Order 1
