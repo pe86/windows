@@ -60,24 +60,24 @@ theme:
   titles_only: true
 nav:
   - index.md
-  - Client Server Αρχιτεκτονική:
-    - client-server/index.md
-    - Προετοιμασία:
-      - client-server/architecture/index.md
-      - client-server/advantages/index.md
-      - client-server/disadvantages/index.md
-      - client-server/requirements/index.md
-      - client-server/compatibility/index.md
-    - Οδηγίες εγκατάστασης:
-      - client-server/server-installation/index.md
-      - client-server/server-basic-settings/index.md
-      - client-server/server-setup-dc/index.md
-      - client-server/domain-policy/index.md
-      - client-server/client-installation/index.md
-      - client-server/client-domain-join/index.md
-      - software/index.md
-      - client-server/create-users/index.md
-    - Προχωρημένα:
-      - client-server/guides/index.md
-      - client-server/peripherals/index.md
-      - software/advanced/index.md
+    - Client Server Αρχιτεκτονική:
+      - client-server/index.md
+      - Προετοιμασία:
+        - client-server/architecture.md
+        - client-server/advantages.md
+        - client-server/disadvantages.md
+        - client-server/requirements.md
+        - client-server/compatibility.md
+      - Οδηγίες εγκατάστασης:
+        - client-server/server-installation/index.md
+        - client-server/server-basic-settings/index.md
+        - client-server/server-setup-dc/index.md
+        - client-server/domain-policy/index.md
+        - client-server/client-installation/index.md
+        - client-server/client-domain-join/index.md
+        - software/index.md
+        - client-server/create-users.md
+      - Προχωρημένα:
+        - client-server/guides/index.md
+        - client-server/peripherals/index.md
+        - software/advanced/index.md
