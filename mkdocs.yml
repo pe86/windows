@@ -81,3 +81,5 @@ nav:
         - client-server/guides/index.md
         - client-server/peripherals/index.md
         - software/advanced/index.md
+  - Τοπικές Εγκαταστάσεις:
+    - 10/index.md
