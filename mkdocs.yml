@@ -59,7 +59,7 @@ theme:
         name: Αλλαγή σε ανοιχτό θέμα
   titles_only: true
 nav:
-  Windows:
+  - Windows:
     - index.md
   - Client Server Αρχιτεκτονική:
     - client-server/index.md
