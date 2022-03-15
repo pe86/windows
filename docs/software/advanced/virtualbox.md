@@ -13,7 +13,7 @@
 
 ## Εγκατάσταση VirtualBox
 
-* Κατεβάστε το εκτελέσιμο στην αντίστοιχη έκδοση για Windows Hosts (δηλ. για λειτουργικό σύστημα MS-Windows) από διεύθυνση https://www.virtualbox.org/wiki/Downloads.
+* Κατεβάστε το εκτελέσιμο στην αντίστοιχη έκδοση για Windows Hosts (δηλ. για λειτουργικό σύστημα MS-Windows) από διεύθυνση <https://www.virtualbox.org/wiki/Downloads>.
 
 !!! tip "Πληροφορία"
     * Από την έκδοση 6.0 και μετά του VirtualBox υποστηρίζονται μόνο x64 λειτουργικά συστήματα.
