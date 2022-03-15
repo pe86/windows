@@ -59,8 +59,7 @@ theme:
         name: Αλλαγή σε ανοιχτό θέμα
   titles_only: true
 nav:
-  - Windows:
-    - index.md
+  - index.md
   - Client Server Αρχιτεκτονική:
     - client-server/index.md
     - Προετοιμασία:
@@ -76,7 +75,24 @@ nav:
       - client-server/domain-policy/index.md
       - client-server/client-installation/index.md
       - client-server/client-domain-join/index.md
-      - software/index.md
+      - Εγκατάσταση λογισμικού:
+        - software/index.md
+        - software/7zip.md
+        - software/infrarecorder.md
+        - software/sumatrapdf.md
+        - software/irfanview.md
+        - software/firefox.md
+        - software/chrome.md
+        - software/palemoon.md
+        - software/vlc.md
+        - software/flash.md
+        - software/java.md
+        - software/libreoffice.md
+        - software/msoffice.md
+        - software/gimp.md
+        - software/audacity.md
+        - software/blender.md
+        - software/snappy-driver.md
       - client-server/create-users.md
     - Προχωρημένα:
       - client-server/guides.md
