@@ -75,7 +75,7 @@ nav:
       - client-server/domain-policy/index.md
       - client-server/client-installation/index.md
       - client-server/client-domain-join/index.md
-      - Εγκατάσταση λογισμικού:
+      - Προσθήκη λογισμικού:
         - software/index.md
         - software/7zip.md
         - software/infrarecorder.md
@@ -97,6 +97,11 @@ nav:
     - Προχωρημένα:
       - client-server/guides.md
       - client-server/peripherals.md
-      - software/advanced/index.md
-  - Τοπικές Εγκαταστάσεις:
+      - Υπηρεσίες για προχωρημένους:
+        - software/advanced/index.md
+        - software/advanced/squid.md
+        - software/advanced/virtualbox.md
+        - software/advanced/updates-share.md
+        - software/advanced/veyon.md
+  - Αυτόνομες Εγκαταστάσεις:
     - 10/index.md
