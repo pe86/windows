@@ -97,7 +97,7 @@ nav:
     - Προχωρημένα:
       - client-server/guides.md
       - client-server/peripherals.md
-      - Υπηρεσίες για προχωρημένους:
+      - Προσθήκη λογισμικού για προχωρημένους:
         - software/advanced/index.md
         - software/advanced/squid.md
         - software/advanced/virtualbox.md
