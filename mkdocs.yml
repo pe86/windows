@@ -59,6 +59,7 @@ theme:
         name: Αλλαγή σε ανοιχτό θέμα
   titles_only: true
 nav:
+  Windows:
   - index.md
     - Client Server Αρχιτεκτονική:
       - client-server/index.md
@@ -78,8 +79,8 @@ nav:
         - software/index.md
         - client-server/create-users.md
       - Προχωρημένα:
-        - client-server/guides/index.md
-        - client-server/peripherals/index.md
+        - client-server/guides.md
+        - client-server/peripherals.md
         - software/advanced/index.md
   - Τοπικές Εγκαταστάσεις:
     - 10/index.md
