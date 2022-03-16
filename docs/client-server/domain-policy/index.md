@@ -112,3 +112,10 @@
     import-gpo -BackupGpoName "SEPEHY Shared Accounts Policy" -TargetName "SEPEHY Shared Accounts Policy" -path c:\backups
 
     New-GPLink -Target "OU=Lab,OU=Accounts,OU=Shared-Accounts,DC=priv,DC=2gym-mesol,DC=ait,DC-sch,DC=gr" -Name "SEPEHY Shared Accounts Policy" -LinkEnabled Yes -Enforced Yes -Order 1
+
+### Δημιουργία πολιτικής για αυτόματη εγκατάσταση εκτυπωτών στους σταθμούς εργασίας
+
+Για να εγκαθίστανται αυτόματα οι εκτυπωτές στους σταθμούς εργασίας, θα πρέπει να ενεργοποιηθεί σε επίπεδο Group Policy:
+
+- Δεξί κλικ στον εκτυπωτή που δημιουργήσαμε και επιλέγουμε ***Deploy with Group Policy...***, κάνουμε Browse και επιλέγουμε την πολιτική με την οποία θα γίνει η αυτόματη εγκατάσταση εκτυπωτών (π.χ. με την SEPEHY Workstations Policy), επιλέγουμε εάν η εφαρμογή θα γίνει για τους χρήστες για τους οποίους εφαρμόζεται η πολιτική (per user) ή για τους σταθμούς εργασίας (per machine) και πατάμε ***Add*** και ***Apply***.
+- Με την εφαρμογή της πολιτικής και στην επόμενη επανεκκίνηση του σταθμού εργασίας προστίθενται οι εκτυπωτές που έχουμε ορίσει.
