@@ -4,7 +4,7 @@
 
 - [Ελάχιστες Απαιτήσεις υλικού](requirements.md)
 - [Έλεγχος Συμβατότητας υλικού σταθμού εργασίας](compatibility.md)
-- [Bασική εγκατάσταση ενός σταθμού εργασίας Windows 10](installation/index.md)
+- [Eγκατάσταση λειτουργικού συστήματος](installation/index.md)
 - [Εγκατάσταση λογισμικού](../software/index.md)
 
 
