@@ -108,6 +108,7 @@ nav:
         - software/advanced/index.md
         - software/advanced/squid.md
         - software/advanced/virtualbox.md
+        - software/advanced/remote-access.md
         - software/advanced/updates-share.md
         - software/advanced/veyon.md
   

@@ -10,7 +10,7 @@
 
 - Από το `Server Manager` επιλέγουμε ***Local Server*** και στη συνέχεια ***Remote Desktop: Disabled*** ώστε να την ενεργοποιήσουμε.
 
-!!! tip "Πληροφορία"
+!!! tip "Συμβουλή"
     Εναλλακτικά με ***δεξί κλικ*** στο  ***This PC***  επιλέγουμε  ***Properties*** ▸ ***Remote Settings***
 
 [![](02-allow-fw-remote-desktop-.png)](02-allow-fw-remote-desktop-.png)
