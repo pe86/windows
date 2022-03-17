@@ -4,6 +4,6 @@
 
 * [Διακομιστή διαμεσολάβησης (Proxy)](squid.md)
 * [Παροχής περιβάλλοντος εικονικοποίησης (Virtualization)](virtualbox.md)
-* Απομακρυσμένης πρόσβασης στο Σ.Ε.Π.Ε.Η.Υ.
+* [Απομακρυσμένης πρόσβασης στο Σ.Ε.Π.Ε.Η.Υ.](remote-access.md)
 * [Διαμοιρασμού των Windows updates εντός του τοπικού δικτύου](updates-share.md)
 * [Διαχείρισης τάξης (Classroom management)](veyon.md)
