@@ -1,10 +1,10 @@
 # Δημιουργία χρηστών και ομάδων χρηστών
 
-Eφόσον υπάρχει εγκατεστημένος τομέας (Active Directory Domain) μέσω της εφαρμογής ```Active Directory Users And Computers``` ή και της εφαρμογής (για Windows Server 2016 ή νεότερο) ```Active Directory Administrative Center``` του Windows εξυπηρετητή για τον τομέα (Domain Controller). Οι λογαριασμοί που δημιουργούνται αξιοποιούνται από όλους τους Η/Υ που συνδέονται στο domain.
+Eφόσον υπάρχει εγκατεστημένος τομέας (Active Directory Domain) μέσω της εφαρμογής `Active Directory Users And Computers` ή και της εφαρμογής (για Windows Server 2016 ή νεότερο) `Active Directory Administrative Center` του Windows εξυπηρετητή για τον τομέα (Domain Controller). Οι λογαριασμοί που δημιουργούνται αξιοποιούνται από όλους τους Η/Υ που συνδέονται στο domain.
 
 ## Δημιουργία χρηστών στον Domain Controller
 
-Με την εφαρμογή ```Active Directory Users And Computers```:
+Με την εφαρμογή `Active Directory Users And Computers`:
 
 * Kάντε ***δεξί κλικ*** στο OU=Users ή σε οποιοδήποτε άλλο OU επιθυμείτε και στη συνέχεια ▸ New ▸ User
 * Ορίστε First Name, Last Name και user logon name και πατήστε ***Next***.
@@ -22,7 +22,7 @@ Eφόσον υπάρχει εγκατεστημένος τομέας (Active Dir
 
 ## Δημιουργία ομάδων χρηστών στον Domain Controller
 
-Με την εφαρμογή ```Active Directory Users And Computers```:
+Με την εφαρμογή `Active Directory Users And Computers`:
 
 * Kάντε ***δεξί κλικ*** στο OU=Users (ή σε οποιοδήποτε άλλο OU επιθυμείτε) και στη συνέχεια ▸ New ▸ Group.
 * Ορίστε το όνομα της ομάδας χρηστών

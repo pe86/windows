@@ -106,11 +106,11 @@ nav:
       - client-server/peripherals.md
       - Προσθήκη λογισμικού για προχωρημένους:
         - software/advanced/index.md
-        - software/advanced/squid.md
+        - software/advanced/veyon.md
         - software/advanced/virtualbox.md
         - software/advanced/remote-access.md
         - software/advanced/updates-share.md
-        - software/advanced/veyon.md
+        - software/advanced/squid.md
   
   
     
