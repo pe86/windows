@@ -68,7 +68,7 @@
 Έτσι στον εξυπηρετητή δίνετε την εντολή:
 
 ```shell
-    c:\program files\uvnc uvba\ultravnc\winvnc -connect <ip του γρ. ΠΛΗΝΕΤ ή του σπιτιού σας> -run
+    c:\program files\uvnc uvba\ultravnc\winvnc -connect ip_του_γρ._ΠΛΗΝΕΤ_ή_του_σπιτιού_σας -run
 ```
 
 Στον Η/Υ του σπιτιού σας ή του γραφείου ΠΛΗΝΕΤ δίνετε την εντολή:
