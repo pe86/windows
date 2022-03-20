@@ -18,7 +18,7 @@
 
 * Πραγματοποιήστε λήψη της τελευταίας Stable έκδοσης του squid από τη διεύθυνση <https://packages.diladele.com/squid/3.5.28/squid.msi>.
 
-!!! warning "Προσοχή" 
+!!! warning "Προσοχή"
 
     * Η συγκεκριμένη έκδοση διατίθεται μόνο σε x64 λειτουργικά συστήματα, επομένως δεν εγκαθίστανται σε x86 λειτουργικά συστήματα.
     * Η τελευταία έκδοση (4.14) που υπάρχει στο <https://squid.diladele.com/> έχει bugs και δεν προτείνεται για εγκατάσταση.
@@ -34,12 +34,13 @@
 
 !!! info "Πληροφορία"
     Θα παρατηρήσετε στο κάτω δεξί μέρος του taskbar (Tray) να υπάρχει η εφαρμογή διαχείρισης του Squid μέσω της οποίας έχετε τις ακόλουθες δυνατότητες:
-    * Open Squid Configuration
-    * Open Squid Folder
-    * Start Squid Service
-    * Stop Squid Service
-    * About
-    * Exit
+
+    - Open Squid Configuration
+    - Open Squid Folder
+    - Start Squid Service
+    - Stop Squid Service
+    - About
+    - Exit
 
 ## Αρχικές ρυθμίσεις
 
@@ -55,6 +56,7 @@
 
     ```shell
         squid.exe -z
+    ```
 
 * Από την εφαρμογή διαχείρισης του squid στο tray ενεργοποιήστε τη λειτουργία του Squid επιλέγοντας ***Start Squid Service***.
 

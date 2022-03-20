@@ -13,7 +13,7 @@ Eφόσον υπάρχει εγκατεστημένος τομέας (Active Dir
 
 !!! powershell "PowerShell: Δημιουργία χρήστη με όνομα siahos"
     ```shell
-        New-ADUser -Name siahos -DisplayName “Yannis Siahos” -GivenName Yannis -Surname Siahos -Path “ou=Users,dc=priv, dc=2gym-mesol, dc=ait, dc=sch,dc=gr
+        New-ADUser -Name siahos -DisplayName “Yannis Siahos” -GivenName Yannis -Surname Siahos -Path “ou=Users,dc=school, dc=lan
 
         Set-ADAccountPassword siahos
 
