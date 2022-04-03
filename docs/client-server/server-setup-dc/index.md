@@ -190,7 +190,11 @@ Domain Services.
 
     !!! powershell "PowerShell: Ορισμός πηγής NTP στον DC"
         ```shell
-        w32tm /config /manualpeerlist:10.x.y.1,ntp.sch.gr /syncfromflags:domhier /update
+        w32tm /config /manualpeerlist:10.x.y.1,ntp.sch.gr /syncfromflags:manual /reliable:yes /update
+        
+        net stop w32time
+        
+        net start w32time
         ```
         Αντικαταστήστε το 10.x.y.1 με την IP διεύθυνση του δρομολογητή.
 
@@ -201,3 +205,15 @@ Domain Services.
         w32tm /stripchart /computer:10.x.y.1 /samples:3
         ```
         Αντικαταστήστε το 10.x.y.1 με την IP διεύθυνση του δρομολογητή. Επιβεβαιώστε ότι υπάρχει ταύτιση ώρας.
+
+!!! warning "Προσοχή"
+    Εάν ο DC δεν είναι ο 1ος που εγκαθίσταται για το συγκεκριμένο domain, τότε η εντολή για τον ορισμό πηγής NTP στον DC είναι η ακόλουθη:
+    
+    !!! powershell "PowerShell: Ορισμός πηγής NTP στον νέο DC, εφόσον υπάρχει ήδη 1ος DC"
+        ```shell
+        w32tm /config /syncfromflags:domhier /update
+        
+        net stop w32time
+        
+        net start w32time
+    ```
