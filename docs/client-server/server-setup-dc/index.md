@@ -165,8 +165,8 @@ Domain Services.
 
 !!! powershell "PowerShell: Ρύθμιση υπηρεσίας DNS"
     ```shell
-    Set-DnsServerForwarder -UseRootHint $false
     Add-DnsServerForwarder -IPAddress 194.63.238.4, 194.63.239.164, 194.63.237.4
+    Set-DnsServerForwarder -UseRootHint $false
     ```
 
 ## Ενεργοποίηση συγχρονισμού ώρας
