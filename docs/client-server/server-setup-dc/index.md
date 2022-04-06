@@ -211,9 +211,9 @@ Domain Services.
     
     !!! powershell "PowerShell: Ορισμός πηγής NTP στον νέο DC, εφόσον υπάρχει ήδη 1ος DC"
         ```shell
-        w32tm /config /syncfromflags:domhier /update
-        
-        net stop w32time
-        
-        net start w32time
-    ```
+            w32tm /config /syncfromflags:domhier /update
+            
+            net stop w32time
+            
+            net start w32time
+        ```
