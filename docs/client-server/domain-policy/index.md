@@ -96,7 +96,7 @@
 
 Για διευκόλυνση ενεργοποίησης των προτεινόμενων πολιτικών προσφέρονται αντίγραφα ασφαλείας των [SEPEHY Shared Accounts Policy και SEPEHY Workstations Policy](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/344-sepehy-w2k8-gpo), τα οποία μπορείτε να εισάγετε στο domains σας μέσω της εισαγωγής ρυθμίσεων. Η διαδικασία εισαγωγής είναι η ακόλουθη:
 
-- Αποσυμπιέζουμε τα αρχεία πολιτικών ομάδας σε κάποιο φάκελο.
+- Αποσυμπιέζουμε τα αρχεία πολιτικών ομάδας σε κάποιο φάκελο (πχ. c:\backup).
 - Από την κονσόλα `Group Policy Management` δημιουργούμε τις προτεινόμενες πολιτικές ως ονόματα. Κατόπιν με ***δεξί click στην κάθε πολιτική*** ▸ ***Import Settings...***.
 - Στο παράθυρο του Wizard επιλέγουμε ***Next***
 - Εφόσον δεν έχουμε τροποποιήσει τις πολιτικές προχωράμε χωρίς να πάρουμε Backup επιλέγοντας ***Next***
@@ -106,9 +106,11 @@
 - Επιλέγουμε ***Next***, ***Next***, ***Finish*** και ***OK***.
 
 !!! powershell "PowerShell: Εισαγωγή των προτεινόμενων πολιτικών ασφαλείας"
+    New-GPO -Name "SEPEHY Shared Accounts Policy"
+
     import-gpo -BackupGpoName "SEPEHY Shared Accounts Policy" -TargetName "SEPEHY Shared Accounts Policy" -path c:\backups
 
-    New-GPLink -Target "OU=Lab,OU=Accounts,OU=Shared-Accounts,DC=school,DC=lan -Name "SEPEHY Shared Accounts Policy" -LinkEnabled Yes -Enforced Yes -Order 1
+    New-GPLink -Target "OU=Shared Accounts,DC=school,DC=lan" -Name "SEPEHY Shared Accounts Policy" -LinkEnabled Yes -Enforced Yes -Order 1
 
 ### Δημιουργία πολιτικής για αυτόματη εγκατάσταση εκτυπωτών στους σταθμούς εργασίας
 

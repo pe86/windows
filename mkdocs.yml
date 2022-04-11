@@ -66,12 +66,18 @@ nav:
         - 10/requirements.md
         - 10/compatibility.md
         - 10/installation/index.md
+        - Μετέπειτα Ενέργειες:
+          - 10/peripherals.md
+          - 10/create-users.md
       - Windows Server 2019:
         - 2019/index.md
         - 2019/requirements.md
         - 2019/compatibility.md
         - 2019/installation/index.md
         - 2019/basic-settings/index.md
+        - Μετέπειτα Ενέργειες:
+          - 2019/peripherals.md
+          - 2019/create-users.md          
   - Προσθήκη λογισμικού:
       - software/index.md
       - software/7zip.md
@@ -90,6 +96,7 @@ nav:
       - software/audacity.md
       - software/blender.md
       - software/snappy-driver.md
+      - software/sch-scripts.md
   - Client Server Αρχιτεκτονική:
     - client-server/index.md
     - Περιγραφή της Αρχιτεκτονικής:
