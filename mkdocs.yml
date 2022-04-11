@@ -31,9 +31,10 @@ plugins:
       cover_subtitle: Οδηγός εγκατάστασης και χρήσης
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
-      ordered_chapter_level: 4
+      ordered_chapter_level: 2
       output_path: windows.pdf
-      toc_level: 4
+      toc_level: 2
+      toc_title: Πίνακας περιεχομένων
 repo_url: https://github.com/pe86/windows
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
 site_url: https://ts.sch.gr/docs/windows
@@ -118,6 +119,3 @@ nav:
         - software/advanced/remote-access.md
         - software/advanced/updates-share.md
         - software/advanced/squid.md
-  
-  
-    
