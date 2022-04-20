@@ -21,3 +21,8 @@
 ## Οδηγίες χρήσης
 
 Δείτε στη σελίδα <https://docs.gimp.org/2.8/el/> το εξελληνισμένο εγχειρίδιο χρήσης του `GIMP` και στη στελίδα <https://www.gimp.org/tutorials/> ένα σύνολο από εκπαιδευτικούς οδηγούς (στην αγγλική γλώσσα).
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση GIMP"
+    ```shell
+    winget install --id=GIMP.GIMP  -e
+    ```

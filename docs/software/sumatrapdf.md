@@ -14,3 +14,8 @@
 
 - Πατήστε διπλό κλίκ στο .exe αρχείο ώστε να ξεκινήσει η εγκατάσταση.
 - Επιλέξτε να εγκατασταθεί στον κατάλογο c:\program files\sumatrapdf
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Sumatra PDF"
+    ```shell
+    winget install --id=SumatraPDF.SumatraPDF  -e
+    ```

@@ -21,3 +21,8 @@
 ## Οδηγίες χρήσης
 
 Δείτε στη σελίδα https://docs.blender.org/manual/en/latest/index.html το εγχειρίδιο χρήσης του `Blender` (στην αγγλική γλώσσα) και στη στελίδα <https://www.blender.org/support/tutorials/> ένα σύνολο από εκπαιδευτικούς οδηγούς (στην αγγλική γλώσσα).
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Blender"
+    ```shell
+    winget install --id=BlenderFoundation.Blender  -e
+    ```

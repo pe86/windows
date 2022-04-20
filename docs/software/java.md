@@ -25,3 +25,8 @@
     - Οι δημοφιλείς browsers έχουν απενεργοποιήσει την υποστήριξη της java και χρειάζεται να την ενεργοποιήσετε [με τις οδηγίες που υπάρχουν εδώ](https://java.com/en/download/help/enable_browser.html).
     - Εναλλακτικά ως browser χρησιμοποιήστε την εφαρμογή [`Pale Moon`](palemoon.md) που εξακολουθεί να υποστηρίζει την τεχνολογία java.
     - Εκπαιδευτικό λογισμικό που βασίζεται σε τεχνολογίες java είναι διαθέσιμο στο <https://ts.sch.gr/software>
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Java"
+    ```shell
+    winget install --id=Oracle.JavaRuntimeEnvironment  -e
+    ```

@@ -21,3 +21,8 @@
 ## Οδηγίες χρήσης
 
 Δείτε στη σελίδα <https://manual.audacityteam.org/> το εγχειρίδιο χρήσης του `Audacity` (στην αγγλική γλώσσα) και στη στελίδα <https://manual.audacityteam.org/man/tutorials.html> ένα σύνολο από εκπαιδευτικούς οδηγούς (στην αγγλική γλώσσα).
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Audacity"
+    ```shell
+    winget install --id=Audacity.Audacity  -e
+    ```

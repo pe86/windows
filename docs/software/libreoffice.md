@@ -30,3 +30,9 @@
 - Αποδεχθείτε τον προτεινόμενο φάκελο προορισμού που έχει εγκατασταθεί και η σουίτα επιλέγοντας ***Επόμενο*** και κατόπιν επιλέξτε ***Εγκατάσταση***.
 - Επιτρέψτε στην εφαρμογή `LibreOffice <version> el helppack` να κάνει αλλαγές στη συσκευή σας επιλέγοντας ***ΝΑΙ***
 - Όταν ολοκληρωθεί η εγκατάσταση επιλέξτε ***Τέλος***.
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Libreoffice"
+    ```shell
+    winget install --id=TheDocumentFoundation.LibreOffice -e  
+    winget install --id=TheDocumentFoundation.LibreOffice.HelpPack -e 
+    ```

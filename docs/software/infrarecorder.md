@@ -21,3 +21,8 @@
 - Πατήστε ***Install*** για να ξεκινήσει η εγκατάσταση.
 - Επιτρέψτε στην εφαρμογή `4a8e326.msi` να πραγματοποιήσει αλλαγές στη συσκευή σας επιλέγοντας ***ΝΑΙ***
 - Τέλος κάντε κλικ στο ***Finish*** για την ολοκλήρωση της εγκατάστασης.
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση InfraRecorder"
+    ```shell
+    winget install --id=ChristianKindahl.InfraRecorder  -e
+    ```

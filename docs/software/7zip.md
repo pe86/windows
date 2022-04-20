@@ -20,3 +20,8 @@
 - Αποδεχτείτε τον προτεινόμενο κατάλογο εγκατάστασης c:\program files\7zip και επιλέξτε ***Install***
 
 - Τέλος, πατήστε ***Finish*** για την ολοκλήρωση της εγκατάστασης.
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση 7zip"
+    ```shell
+    winget install --id=7zip.7zip  -e
+    ```

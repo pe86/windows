@@ -18,3 +18,8 @@
 - Επιλέξτε ***Επόμενο*** για να ξεκινήσει η εγκατάσταση.
 - Επιλέξτε ***Standard*** για την τυπική εγκατάσταση.
 - Τέλος, επιλέξτε ***Επόμενο*** για την ολοκλήρωση της εγκατάστασης.
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Pale Moon"
+    ```shell
+    winget install --id=MoonchildProductions.PaleMoon  -e
+    ```

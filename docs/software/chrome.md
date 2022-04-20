@@ -17,3 +17,8 @@
 
 !!! tip "Συμβουλή"
     Στην 1η εκκίνηση του Chrome επιλέξτε αν θέλετε να είναι το προεπιλεγμένο πρόγραμμα περιήγησης ακολουθώντας τις προτεινόμενες οδηγίες.
+
+!!! powershell "PowerShell (administrator): Εγκατάσταση Chrome"
+    ```shell
+    winget install --id=Google.Chrome  -e
+    ```
