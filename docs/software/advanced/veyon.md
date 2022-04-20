@@ -24,6 +24,11 @@
 !!! warning "Προσοχή"
     Στο παράθυρο **Choose Components** επιλέγετε το **Veyon Master** αν και μόνο αν πρόκειται για εγκατάσταση στον Η/Υ που χρησιμοποιεί ο εκπαιδευτικός.
 
+!!! powershell "PowerShell (administrator): Εγκατάσταση Veyon"
+    ```shell
+    winget install --id=VeyonSolutions.Veyon  -e
+    ```
+
 ## Αρχικές ρυθμίσεις στο σταθμό εργασίας του εκπαιδευτικού (Veyon Master)
 
 * Εκτελέστε την εφαρμογή `Veyon Configurator`.
