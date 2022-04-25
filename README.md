@@ -1,7 +1,7 @@
 # Τεκμηρίωση για ΣΕΠΕΗΥ με Windows
 
 Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
-https://ts.sch.gr/docs/windows.
+https://ts.sch.gr/wiki/windows.
 
 ## Linux development environment
 
@@ -30,12 +30,11 @@ open http://localhost:7101
     **Προσοχή**: Μετά την εγκατάσταση κάντε επανεκκίνηση ώστε να ενημερωθεί η
     μεταβλητή συστήματος `PATH` των Windows.
 
-
 ## Upload to ts
 
 ```shell
 sudo -i
-cd /srv/docs/windows
+cd /srv/wiki/windows
 git fetch
 git reset --hard origin/ts-docs
 ```

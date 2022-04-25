@@ -14,7 +14,7 @@ pip install mkdocs-material-extensions
 pip install mkdocs-redirects
 pip install mkdocs-section-index
 pip install mkdocs-with-pdf
-# Use a different site_url for ts.sch.gr/docs/windows vs pe86.github.io/windows
+# Use a different site_url for ts.sch.gr/wiki/windows vs pe86.github.io/windows
 ENABLE_PDF_EXPORT=1 mkdocs gh-deploy --remote-branch ts-docs --force
 sed 's,site_url:.*,site_url: https://pe86.github.io/windows,' -i mkdocs.yml
 ENABLE_PDF_EXPORT=0 mkdocs gh-deploy --force

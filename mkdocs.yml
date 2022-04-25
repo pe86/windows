@@ -25,7 +25,7 @@ plugins:
       minify_html: false
   - search
   - with-pdf:
-      author: Έκδοση pdf του https://ts.sch.gr/docs/windows
+      author: Έκδοση pdf του https://ts.sch.gr/wiki/windows
       copyright: Copyright © 2008-2022 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Windows
       cover_subtitle: Οδηγός εγκατάστασης και χρήσης
@@ -37,7 +37,7 @@ plugins:
       toc_title: Πίνακας περιεχομένων
 repo_url: https://github.com/pe86/windows
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
-site_url: https://ts.sch.gr/docs/windows
+site_url: https://ts.sch.gr/wiki/windows
 strict: false
 theme:
 # favicon: favicon.ico
@@ -78,7 +78,7 @@ nav:
         - 2019/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
           - 2019/peripherals.md
-          - 2019/create-users.md          
+          - 2019/create-users.md
   - Προσθήκη λογισμικού:
       - software/index.md
       - software/7zip.md
