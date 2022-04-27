@@ -3,7 +3,7 @@
 !!! tip ""
     Το παρόν εγχειρίδιο αναφέρεται κυρίως σε σχολεία που στα Σ.Ε.Π.Ε.Η.Υ. τους
     χρησιμοποιούν Windows. Είναι διαθέσιμο σε [μορφή
-    pdf](https://ts.sch.gr/docs/windows/client-server-win2019-win10.pdf) στη
+    pdf](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/382-odigos-egkatastasis-diamorfosis-ms-windows-2019-ms-windows-10) στη
     [Βιβλιοθήκη Εγγράφων](https://ts.sch.gr/docs) του [Ενημερωτικού Κόμβου της
     Τεχνικής Στήριξης](https://ts.sch.gr), όπου επιπλέον διατίθενται οδηγοί και
     για παλαιότερες εκδόσεις των Windows.
