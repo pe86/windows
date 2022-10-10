@@ -24,8 +24,10 @@
 Οι δικτυακές συνδέσεις γίνονται στο TCP port 3389 (ή στο UDP port 3389) του RDSH εξυπηρετητή.
 
 !!! info "Πληροφορία"
-      Περισσότερες πληροφορίες για το πρωτόκολλο RDP θα βρείτε στις σελίδες: 
+      Περισσότερες πληροφορίες για το πρωτόκολλο RDP θα βρείτε στις σελίδες:
+
       - [Κατανόηση RDP πρωτοκόλλου] (https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol)
+      
       - [Ρύθμιση του RDP πρωτοκόλλου σε Windows] (https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-allow-access?source=recommendations)
 
 ## Η/Υ πελάτες
