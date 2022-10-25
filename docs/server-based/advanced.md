@@ -28,9 +28,9 @@
 
 - Πλοηγηθείτε στο μενού ***Computer Configuration*** ▸ ***Administrative Templates*** ▸ ***Windows Components*** ▸ ***Remote Desktop Services*** ▸ ***Remote Desktop Session Host***.
 - Πλοηγηθείτε ***Licensing*** ▸ ***Set the Remote Desktop licensing mode*** 
-- Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το ***Set the Remote Desktop licensing mode*** **`Enabled`**.
-- Επιλέξτε ***Specify the licensing mode of RD Session Host server*** **`Per User`** (ή Per Device ανάλογα)
-- Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το ***Use the specified Remote Desktop license servers*** και δηλώστε τον License Server.
+- Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το **Set the Remote Desktop licensing mode** **`Enabled`**.
+- Επιλέξτε **Specify the licensing mode of RD Session Host server** **`Per User`** (ή Per Device ανάλογα)
+- Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το **Use the specified Remote Desktop license servers** και δηλώστε τον License Server.
 
 ## Εγκατάσταση αδειών Remote Desktop{#rds-license-setup}
 
@@ -41,7 +41,7 @@
 
 !!! tip "Συμβουλή"
     - Αν χρησιμοποιείτε μόνο κοινόχρηστους λογαριασμούς πχ user01, user02 κ.τ.λ. προμηθευτείτε άδειες **Per User**. (Θέλετε τόσες άδειες όσες οι διαφορετικοί κοινόχρηστοι λογαριασμοί).
-    - Αν χρησιμοποιείτε διαφορετικούς λογαριασμούς προμηθευτείτε άδειες **Per Device**. (Θέλετε τόσες άδειες όσοι και οι Η/Υ του Σ.Ε.Π.Ε.Η.Υ.).
+    - Αν χρησιμοποιείτε προσωπικούς λογαριασμούς για τους χρήστες, προμηθευτείτε άδειες **Per Device**. (Θέλετε τόσες άδειες όσοι και οι Η/Υ του Σ.Ε.Π.Ε.Η.Υ.).
 
 Η ρύθμιση ενός εξυπηρετητή ώστε να λειτουργεί ως License Server πραγματοποιείται εγκαθιστώντας τον ρόλο Remote Desktop Licensing.
 
@@ -84,7 +84,7 @@
 - Στην οθόνη **Completing the Activate Server Wizard** διακρίνουμε δύο περιπτώσεις:
 
     - Εάν δεν διαθέτε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να μην τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στη συνέχεια να κάνετε κλικ στην επιλογή **Finish**.
-    - Εάν διαθέτετε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στην συνέχεια να κάνετε κλικ στην επιλογή **Next**. Στην συνέχεια ακολουθήστε τα βήματα που περιγράφονται στην επόμενη ενότητα.
+    - Εάν διαθέτετε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στην συνέχεια να κάνετε κλικ στην επιλογή **Next**. Στην συνέχεια ακολουθήστε τα βήματα που περιγράφονται στις επόμενες ενότητες.
 
 ### Εγκατάσταση αδειών
 
@@ -110,4 +110,4 @@
 - Στις ιδιότητες του Deployment επιλέξτε το tab ***RD Licensing*** και δηλώστε τον τύπο της άδειας που έχετε προμηθευτεί καθώς και τον License Server και στην συνέχεια κάντε κλικ στο **Add** και κατόπιν κλικ στο **OK**.
 
 !!! tip "Συμβουλή"
-    Οι παραπάνω ρυθμίσεις μπορούν να ενεργοποιηθούν και μέσω του Local Group Policy οπως περιγράφεται στην προηγούμενη ενότητα [Παραμετροποίηση RDSH](#customize-rdsh)
+    Οι παραπάνω ρυθμίσεις μπορούν να ενεργοποιηθούν και μέσω του Local Group Policy οπως περιγράφεται στην προηγούμενη ενότητα [Παραμετροποίηση RDSH](./advanced.md#customize-rdsh)

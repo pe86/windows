@@ -15,16 +15,14 @@
     Για να γνωρίζετε τις υπολειπόμενες ημέρες δοκιμαστικής χρήσης της υπηρεσίας, ανοίξτε ένα Παράθυρο PowerShell ως διαχειριστής και αντιγράψτε την εντολή:
 
     !!! PowerShell: Υπολειπόμενες ημέρες δοκιμαστικής χρήσης RDSH server
-         
-            (Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
+        ```shell
+         (Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
+        ```
 
 ## Εγκατάσταση ρόλου RDSH
 
 Στο Windows Server η διαδικασία εγκατάστασης του ρόλου RDSH μπορεί
 να γίνει μέσω γραφικού περιβάλλοντος με χρήση του εργαλείου `Server Manager` ακολουθώντας τα παρακάτω βήματα:
-
-- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`** ▸ ***Administrative Tools***
-- Επιλέξτε το σύνδεσμο **Add roles and features** από την διεπαφή που προσφέρει το εργαλείο `Server Manager` με την έναρξή του.
 
 [![](00-Add-rolesAndfeatures.png)](00-Add-rolesAndfeatures.png)
 
@@ -34,20 +32,15 @@
 
 [![](03-rds-role.png)](03-rds-role.png)
 
+- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`** ▸ ***Administrative Tools***
+- Επιλέξτε το σύνδεσμο **Add roles and features** από την διεπαφή που προσφέρει το εργαλείο `Server Manager` με την έναρξή του.
 - Στην αρχική διεπαφή **Add Roles and Features Wizard** επιλέγουμε ***Next***.
-
 - Κατόπιν αφήνουμε επιλεγμένο το  **Role-based or feature-based installation** επιλέγουμε ***Next***.
-
 - Αφήστε επιλεγμένο το **Select a server from the server pool** και  επιλέξτε τον εξυπηρετητή σας (πχ srv-2lyk-mesol) και κατόπιν επιλέξτε ***Next***.
-
 - Στο παράθυρο **Select server roles** επιλέξτε την εγκατάσταση του ρόλου των **Remote Desktop Services** και και κατόπιν επιλέξτε ***Next***.
-
 - Στο παράθυρο **Select Features** επιλέξτε ***Next***.
-
 - Στο παράθυρο **Remote Desktop Services** επιλέξτε ***Next***.
-
 - Στο παράθυρο **Select role services** επιλέξτε ***Remote Desktop Session Host*** και ***Add Features***.
-
 - Στο παράθυρο **Confirm installation selections** επιλέξτε ***Install*** ώστε να ξεκινήσει η εγκατάσταση.
 
 Εναλλακτικά, μπορείτε να εγκαταστήσετε το ρόλο του RDSH με χρήση PowerShell:
