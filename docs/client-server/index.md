@@ -9,6 +9,7 @@
 - [Αρχιτεκτονική](architecture.md)
 - [Αναμενόμενα οφέλη](advantages.md)
 - [Μειονεκτήματα](disadvantages.md)
+- [Απαιτήσεις](requirements.md)
 
 ## Προαπαιτούμενα της υλοποίησης
 
