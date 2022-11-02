@@ -100,6 +100,19 @@
 - Τέλος, στην επόμενη οθόνη, στο πεδίο **Product version** επιλέγετε την έκδοση του λειτουργικού συστήματος που φέρει ο εξυπηρετητής (πχ: Windows Server 2019), στο πεδίο **License Type** επιλέγετε τον τύπο της άδειας πχ **`RDS Per Device CAL`** (για device cals) και στο πεδίο **Quantity** πληκτρολογείτε τον αριθμό των σταθμών εργασίας του εργαστηρίου σας. Στην συνέχεια κάντε κλικ στο **Next**. Στην τελική οθόνη που σας εμφανίζετε πατήστε **Finish**.
 - Μόλις ολοκληρωθεί η διαδικασία, θα πρέπει να επανεκκινήσετε τον Windows Server.
 
+!!! powershell "PowerShell: Ρύθμιση License Server και εγκατάσταση RDS CALs"
+    ```shell
+    $RDSCALMode = Read-Host -Prompt "enter license mode: 2 - Per Device CAL, 4 - Per User CAL"
+
+    $RDSlicServer = Read-Host -Prompt "enter RDS license server name (FQDN):"
+    
+    New-Item "HKLM:\SYSTEM\CurrentControlSet\Services\TermService\Parameters\LicenseServers"
+    
+    New-ItemProperty "HKLM:\SYSTEM\CurrentControlSet\Services\TermService\Parameters\LicenseServers" -Name SpecifiedLicenseServers -Value $RDSlicServer -PropertyType "MultiString"
+    
+    Set-ItemProperty "HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\Licensing Core\" -Name "LicensingMode" -Value $RDSCALMode
+    ```
+
 ### Ενημέρωση RDSH εξυπηρετητή για τον εξυπηρετητή αδειών και τον τύπο των αδειών
 
 Η ενημέρωση της υπηρεσίας Remote Desktop Session Host με τις άδειες (RDS CALs) πραγματοποιείται από την εφαρμογή `Server Manager` ακολουθώντας τα βήματα:
@@ -108,6 +121,12 @@
 - Επιλέξτε στο αριστερό πλαίσιο ***Remote Desktop Services*** και κατόπιν ▸ ***Collections***
 - Στο πάνω δεξιά μενού επιλέξτε ***Tasks*** ▸ ***Edit Deployment Properties***
 - Στις ιδιότητες του Deployment επιλέξτε το tab ***RD Licensing*** και δηλώστε τον τύπο της άδειας που έχετε προμηθευτεί καθώς και τον License Server και στην συνέχεια κάντε κλικ στο **Add** και κατόπιν κλικ στο **OK**.
+
+!!! powershell "PowerShell: Ορισμός License Server στον RDSH εξυπηρετητή"
+    ```shell
+    $obj = gwmi -namespace "Root/CIMV2/TerminalServices" Win32_TerminalServiceSetting
+    $obj. SetSpecifiedLicenseServerList("srv-2lyk-mesol")
+    ```
 
 !!! tip "Συμβουλή"
     Οι παραπάνω ρυθμίσεις μπορούν να ενεργοποιηθούν και μέσω του Local Group Policy οπως περιγράφεται στην προηγούμενη ενότητα [Παραμετροποίηση RDSH](./advanced.md#customize-rdsh)

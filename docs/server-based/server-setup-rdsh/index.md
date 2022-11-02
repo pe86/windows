@@ -14,7 +14,7 @@
 
     Για να γνωρίζετε τις υπολειπόμενες ημέρες δοκιμαστικής χρήσης της υπηρεσίας, ανοίξτε ένα Παράθυρο PowerShell ως διαχειριστής και αντιγράψτε την εντολή:
 
-    !!! PowerShell: Υπολειπόμενες ημέρες δοκιμαστικής χρήσης RDSH server
+    !!! powershell "PowerShell: Υπολειπόμενες ημέρες δοκιμαστικής χρήσης RDSH server"
         ```shell
          (Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
         ```
