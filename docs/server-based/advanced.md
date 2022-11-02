@@ -4,7 +4,7 @@
 
 Δείτε στην ενότητα του [Λογισμικού/Προχωρημένα](../software/advanced/index.md) επιπλέον λογισμικό (πχ Διαχείριση Τάξης, Εικονικοποίηση, Διαμοιρασμός ενημερώσεων κτλ) που μπορεί να σας φανεί χρήσιμο.
 
-## Παραμετροποίηση RDSH{#customize-rdsh}
+## Παραμετροποίηση RDSH {#customize-rdsh}
 
 Όλη η παραμετροποίηση του εξυπηρετητή RDSH μπορεί να πραγματοποιηθεί μέσω της εφαρμογής `Local Group Policy Editor`.
 
@@ -32,7 +32,7 @@
 - Επιλέξτε **Specify the licensing mode of RD Session Host server** **`Per User`** (ή Per Device ανάλογα)
 - Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το **Use the specified Remote Desktop license servers** και δηλώστε τον License Server.
 
-## Εγκατάσταση αδειών Remote Desktop{#rds-license-setup}
+## Εγκατάσταση αδειών Remote Desktop {#rds-license-setup}
 
 !!! warning "Προσοχή"
     Η ενεργοποίηση των αδειών δεν απαιτείται κατά τη δοκιμαστική χρήση του RDSH εξυπηρετητή.
