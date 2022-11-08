@@ -5,19 +5,14 @@
 !!! info "Πληροφορία"
 
     - Η εγκατάσταση του RDSH ρόλου προϋποθέτει και εγκατάσταση εξυπηρετητή αδειών. Ο εξυπηρετητής αδειών δεν χρειάζεται να εγκατασταθεί / ενεργοποιηθεί εάν κάνετε δοκιμαστική χρήση του RDSH server. Σε αυτήν την περίπτωση έχετε τη δυνατότητα να αξιολογήσετε την αρχιτεκτονική δοκιμαστικά για 120 ήμερες στο οποίο διάστημα δεν απαιτείται να διαθέτετε άδειες Remote Desktop Services Client Access Licenses (RDS CALs). 
-    
+        
     - Στο διάστημα αυτό οι σταθμοί εργασίας θα μπορούν να πραγματοποιούν Remote Desktop Connection στον εξυπηρετητή χωρίς να απαιτείται εγκατάσταση επιπλέον ρόλων εξυπηρετητή αδειών. 
-    
+        
     - Μετά το πέρας των 120 ημερών οι σταθμοί εργασίας δεν θα μπορούν να πραγματοποιούν Remote Desktop Connection στον εξυπηρετητή. Για να συνεχίσετε τη χρήση της υπηρεσίας θα πρέπει να εγκαταστήσετε τις απαραίτητες άδειες ακολουθώντας τα βήματα που βρίσκονται στην ενότητα για τα Προχωρημένα Θέματα: [Εγκατάσταση αδειών Remote Desktop](../advanced.md#rds-license-setup).
 
-!!! tip "Συμβουλή"
+!!! warning "Προσοχή"
 
-    Για να γνωρίζετε τις υπολειπόμενες ημέρες δοκιμαστικής χρήσης της υπηρεσίας, ανοίξτε ένα Παράθυρο PowerShell ως διαχειριστής και αντιγράψτε την εντολή:
-
-    !!! powershell "PowerShell: Υπολειπόμενες ημέρες δοκιμαστικής χρήσης RDSH server"
-        ```shell
-         (Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
-        ```
+    Εάν έχετε προμηθευτεί άδειες τύπου RDS User CALs τότε πριν ενεργοποιήσετε το ρόλο του RDSH συνδέστε τον εξυπηρετητή στο domain, αλλιώς οι χρήστες θα αποσυνδέονται (logoff) μετά από 60'. Η διαδίκασία σύνδεσης του εξυπηρετητή στο domain είναι ίδια με αυτή της σύνδεσης ενός σταθμού εργασίας οπότε [ακολουθείτε τις οδηγίες για σταθμούς εργασίας](../../client-server/client-domain-join/index.md).
 
 ## Εγκατάσταση ρόλου RDSH
 
@@ -43,9 +38,18 @@
 - Στο παράθυρο **Select role services** επιλέξτε ***Remote Desktop Session Host*** και ***Add Features***.
 - Στο παράθυρο **Confirm installation selections** επιλέξτε ***Install*** ώστε να ξεκινήσει η εγκατάσταση.
 
-Εναλλακτικά, μπορείτε να εγκαταστήσετε το ρόλο του RDSH με χρήση PowerShell:
+Εναλλακτικά, μπορείτε να εγκαταστήσετε το ρόλο του RDSH με χρήση **PowerShell ως διαχειριστής**:
 
 !!! powershell clear "PowerShell: Εγκατάσταση του ρόλου RDSH"
     ```shell
     Add-WindowsFeature rds-rd-server
     ```
+
+!!! tip "Συμβουλή"
+
+    Για να γνωρίζετε τις υπολειπόμενες ημέρες δοκιμαστικής χρήσης της υπηρεσίας, ανοίξτε ένα Παράθυρο **PowerShell ως διαχειριστής** και αντιγράψτε την εντολή:
+
+    !!! powershell "PowerShell: Υπολειπόμενες ημέρες δοκιμαστικής χρήσης RDSH server"
+        ```shell
+         (Invoke-WmiMethod -PATH (gwmi -namespace root\cimv2\terminalservices -class win32_terminalservicesetting).__PATH -name GetGracePeriodDays).daysleft
+        ```

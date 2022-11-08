@@ -29,8 +29,8 @@
 - Πλοηγηθείτε στο μενού ***Computer Configuration*** ▸ ***Administrative Templates*** ▸ ***Windows Components*** ▸ ***Remote Desktop Services*** ▸ ***Remote Desktop Session Host***.
 - Πλοηγηθείτε ***Licensing*** ▸ ***Set the Remote Desktop licensing mode*** 
 - Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το **Set the Remote Desktop licensing mode** **`Enabled`**.
-- Επιλέξτε **Specify the licensing mode of RD Session Host server** **`Per User`** (ή Per Device ανάλογα)
-- Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το **Use the specified Remote Desktop license servers** και δηλώστε τον License Server.
+- Επιλέξτε **Specify the licensing mode of RD Session Host server** **`Per Device`** (ή Per User ανάλογα)
+- Αν δεν είναι ήδη ενεργό, ενεργοποιήστε το **Use the specified Remote Desktop license servers** και δηλώστε τον **License Server** (πχ srv-2lyk-mesol.school.lan).
 
 ## Εγκατάσταση αδειών Remote Desktop {#rds-license-setup}
 
@@ -100,33 +100,9 @@
 - Τέλος, στην επόμενη οθόνη, στο πεδίο **Product version** επιλέγετε την έκδοση του λειτουργικού συστήματος που φέρει ο εξυπηρετητής (πχ: Windows Server 2019), στο πεδίο **License Type** επιλέγετε τον τύπο της άδειας πχ **`RDS Per Device CAL`** (για device cals) και στο πεδίο **Quantity** πληκτρολογείτε τον αριθμό των σταθμών εργασίας του εργαστηρίου σας. Στην συνέχεια κάντε κλικ στο **Next**. Στην τελική οθόνη που σας εμφανίζετε πατήστε **Finish**.
 - Μόλις ολοκληρωθεί η διαδικασία, θα πρέπει να επανεκκινήσετε τον Windows Server.
 
-!!! powershell "PowerShell: Ρύθμιση License Server και εγκατάσταση RDS CALs"
-    ```shell
-    $RDSCALMode = Read-Host -Prompt "enter license mode: 2 - Per Device CAL, 4 - Per User CAL"
-
-    $RDSlicServer = Read-Host -Prompt "enter RDS license server name (FQDN):"
-    
-    New-Item "HKLM:\SYSTEM\CurrentControlSet\Services\TermService\Parameters\LicenseServers"
-    
-    New-ItemProperty "HKLM:\SYSTEM\CurrentControlSet\Services\TermService\Parameters\LicenseServers" -Name SpecifiedLicenseServers -Value $RDSlicServer -PropertyType "MultiString"
-    
-    Set-ItemProperty "HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\Licensing Core\" -Name "LicensingMode" -Value $RDSCALMode
-    ```
-
 ### Ενημέρωση RDSH εξυπηρετητή για τον εξυπηρετητή αδειών και τον τύπο των αδειών
 
-Η ενημέρωση της υπηρεσίας Remote Desktop Session Host με τις άδειες (RDS CALs) πραγματοποιείται από την εφαρμογή `Server Manager` ακολουθώντας τα βήματα:
-
-- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`** ▸ ***Administrative Tools***.
-- Επιλέξτε στο αριστερό πλαίσιο ***Remote Desktop Services*** και κατόπιν ▸ ***Collections***
-- Στο πάνω δεξιά μενού επιλέξτε ***Tasks*** ▸ ***Edit Deployment Properties***
-- Στις ιδιότητες του Deployment επιλέξτε το tab ***RD Licensing*** και δηλώστε τον τύπο της άδειας που έχετε προμηθευτεί καθώς και τον License Server και στην συνέχεια κάντε κλικ στο **Add** και κατόπιν κλικ στο **OK**.
-
-!!! powershell "PowerShell: Ορισμός License Server στον RDSH εξυπηρετητή"
-    ```shell
-    $obj = gwmi -namespace "Root/CIMV2/TerminalServices" Win32_TerminalServiceSetting
-    $obj. SetSpecifiedLicenseServerList("srv-2lyk-mesol")
-    ```
+Η ενημέρωση της υπηρεσίας Remote Desktop Session Host με τις άδειες (RDS CALs) πραγματοποιείται με ρυθμίσεις μέσω της εφαρμογής `Local Group Policy` οπως περιγράφεται στην προηγούμενη ενότητα [Παραμετροποίηση RDSH / 2ο παράδειγμα](./advanced.md#customize-rdsh).
 
 !!! tip "Συμβουλή"
-    Οι παραπάνω ρυθμίσεις μπορούν να ενεργοποιηθούν και μέσω του Local Group Policy οπως περιγράφεται στην προηγούμενη ενότητα [Παραμετροποίηση RDSH](./advanced.md#customize-rdsh)
+    Μπορείτε να ελέγξετε την ορθή λειτουργία του εξυπηρετητή αδειών και του RDSH εξυπηρετητή μέσω της εφαρμογής `RD Licensing Diagnoser` διαθέσιμη από το μενού της εφαρμογής `Server Manager` επιλέγοντας ***Tools*** ▸ ***Remote Desktop Services*** ▸ ***RD Licensing Diagnoser***.
