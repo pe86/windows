@@ -127,14 +127,14 @@ nav:
       - server-based/advantages.md
       - server-based/disadvantages.md
       - server-based/requirements.md
-     - Οδηγίες εγκατάστασης:
+    - Οδηγίες εγκατάστασης:
       - server-based/server-setup-rdsh/index.md
       - server-based/client-connect-rdsh.md
       - server-based/create-users.md
-     - Μετέπειτα ενέργειες:
-       - server-based/guides.md
-       - server-based/peripherals.md
-       - Για προχωρημένους:
+    - Μετέπειτα ενέργειες:
+      - server-based/guides.md
+      - server-based/peripherals.md
+      - Για προχωρημένους:
         - server-based/advanced.md
         - software/advanced/index.md
         - software/advanced/veyon.md
