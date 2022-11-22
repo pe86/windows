@@ -113,7 +113,7 @@ nav:
     - Μετέπειτα ενέργειες:
       - client-server/guides.md
       - client-server/peripherals.md
-      - Προσθήκη λογισμικού για προχωρημένους:
+      - Για προχωρημένους:
         - software/advanced/index.md
         - software/advanced/veyon.md
         - software/advanced/virtualbox.md
