@@ -98,6 +98,13 @@ nav:
       - software/blender.md
       - software/snappy-driver.md
       - software/sch-scripts.md
+      - Για προχωρημένους:
+        - software/advanced/index.md
+        - software/advanced/veyon.md
+        - software/advanced/virtualbox.md
+        - software/advanced/remote-access.md
+        - software/advanced/updates-share.md
+        - software/advanced/squid.md
   - Client Server Αρχιτεκτονική:
     - client-server/index.md
     - Περιγραφή της Αρχιτεκτονικής:
@@ -114,12 +121,7 @@ nav:
       - client-server/guides.md
       - client-server/peripherals.md
       - Για προχωρημένους:
-        - software/advanced/index.md
-        - software/advanced/veyon.md
-        - software/advanced/virtualbox.md
-        - software/advanced/remote-access.md
-        - software/advanced/updates-share.md
-        - software/advanced/squid.md
+        - client-server/advanced.md
   - Centralized Computing Αρχιτεκτονική:
     - server-based/index.md
     - Περιγραφή της Αρχιτεκτονικής:
@@ -136,9 +138,3 @@ nav:
       - server-based/peripherals.md
       - Για προχωρημένους:
         - server-based/advanced.md
-        - software/advanced/index.md
-        - software/advanced/veyon.md
-        - software/advanced/virtualbox.md
-        - software/advanced/remote-access.md
-        - software/advanced/updates-share.md
-        - software/advanced/squid.md
