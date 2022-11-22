@@ -120,3 +120,25 @@ nav:
         - software/advanced/remote-access.md
         - software/advanced/updates-share.md
         - software/advanced/squid.md
+  - Centralized Computing Αρχιτεκτονική:
+    - server-based/index.md
+    - Περιγραφή της Αρχιτεκτονικής:
+      - server-based/architecture.md
+      - server-based/advantages.md
+      - server-based/disadvantages.md
+      - server-based/requirements.md
+    - Οδηγίες εγκατάστασης:
+      - server-based/server-setup-rdsh/index.md
+      - server-based/client-connect-rdsh.md
+      - server-based/create-users.md
+    - Μετέπειτα ενέργειες:
+      - server-based/guides.md
+      - server-based/peripherals.md
+      - Για προχωρημένους:
+        - server-based/advanced.md
+        - software/advanced/index.md
+        - software/advanced/veyon.md
+        - software/advanced/virtualbox.md
+        - software/advanced/remote-access.md
+        - software/advanced/updates-share.md
+        - software/advanced/squid.md
