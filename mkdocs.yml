@@ -138,3 +138,6 @@ nav:
       - server-based/peripherals.md
       - Για προχωρημένους:
         - server-based/advanced.md
+        - server-based/additional-software.md
+        - server-based/rdsh-customization.md
+        - server-based/rds-license-setup.md
