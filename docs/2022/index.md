@@ -1,4 +1,4 @@
-# Εγκατάσταση εξυπηρετητή Windows Server 2019
+# Εγκατάσταση εξυπηρετητή Windows Server 2022
 
 ## Βασική Εγκατάσταση
 
@@ -6,8 +6,8 @@
 
 - [Ελάχιστες Απαιτήσεις υλικού](requirements.md)
 - [Έλεγχος Συμβατότητας υλικού εξυπηρετητή](compatibility.md)
-- [Bασική εγκατάσταση ενός εξυπηρετητή Windows 2019](installation/index.md)
-- [Βασικές ρυθμίσεις ενός εξυπηρετητή Windows 2019](basic-settings/index.md)
+- [Bασική εγκατάσταση ενός εξυπηρετητή Windows 2022](installation/index.md)
+- [Βασικές ρυθμίσεις ενός εξυπηρετητή Windows 2022](basic-settings/index.md)
 
 ## Μετέπειτα ενέργειες
 

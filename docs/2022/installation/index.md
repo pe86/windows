@@ -8,7 +8,7 @@
 !!! tip "Πληροφορία"
     Σε περίπτωση που δεν διαθέτετε μέσα εγκατάστασης, μπορείτε να "κατεβάσετε"
     ένα evaluation σε μορφή ISO από την [ιστοσελίδα της
-    Microsoft](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019).
+    Microsoft](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022).
 
 ## 1. Προετοιμασία εγκατάστασης
 
@@ -36,7 +36,7 @@
 
 ## 4. Επιλογή λειτουργικού συστήματος[![](06-select-flavor.png)](06-select-flavor.png)
 
-Επιλέξτε την εγκατάσταση του ***Windows Server 2019 Standard Desktop Experience
+Επιλέξτε την εγκατάσταση του ***Windows Server 2022 Standard Desktop Experience
   (γραφικό περιβάλλον)***.
 
 ### Αποδοχή όρων αδειοδότησης[![](07-license.png)](07-license.png)
