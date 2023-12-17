@@ -1,4 +1,6 @@
-# Εγκατάσταση εξυπηρετητή Windows Server 2022
+# Εγκατάσταση εξυπηρετητή Windows Server
+
+Οι οδηγίες που ακολουθούν καλύπτουν την έκδοση του λειτουργικού συστήματος Microsoft Windows Server 2022.
 
 ## Βασική Εγκατάσταση
 
@@ -6,8 +8,8 @@
 
 - [Ελάχιστες Απαιτήσεις υλικού](requirements.md)
 - [Έλεγχος Συμβατότητας υλικού εξυπηρετητή](compatibility.md)
-- [Bασική εγκατάσταση ενός εξυπηρετητή Windows 2022](installation/index.md)
-- [Βασικές ρυθμίσεις ενός εξυπηρετητή Windows 2022](basic-settings/index.md)
+- [Eγκατάσταση ενός εξυπηρετητή Windows](installation/index.md)
+- [Βασικές ρυθμίσεις ενός εξυπηρετητή Windows](basic-settings/index.md)
 
 ## Μετέπειτα ενέργειες
 
