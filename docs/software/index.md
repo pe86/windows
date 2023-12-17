@@ -38,6 +38,7 @@
     ```shell
     winget install --id=7zip.7zip -e  && winget install --id=ChristianKindahl.InfraRecorder -e  && winget install --id=SumatraPDF.SumatraPDF -e  && winget install --id=IrfanSkiljan.IrfanView -e  && winget install --id=Mozilla.Firefox -e  && winget install --id=Google.Chrome -e  && winget install --id=MoonchildProductions.PaleMoon -e  && winget install --id=VideoLAN.VLC -e  && winget install --id=TheDocumentFoundation.LibreOffice -e  && winget install --id=TheDocumentFoundation.LibreOffice.HelpPack -e  && winget install --id=GIMP.GIMP -e  && winget install --id=Audacity.Audacity -e  && winget install --id=BlenderFoundation.Blender -e  && winget install --id=GlennDelahoy.SnappyDriverInstallerOrigin -e
     ```
+
 !!! warning "Προειδοποίηση"
     Η παραπάνω εντολή δεν περιλαμβάνει τις εφαρμογές:
     - [Σουίτα γραφείου MS Office](msoffice.md),
