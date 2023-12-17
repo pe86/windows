@@ -36,12 +36,11 @@
 
 !!! powershell "PowerShell (administrator): Εγκατάσταση όλων των παραπάνω εφαρμογών με μία εντολή"
     ```shell
-    winget install --id=7zip.7zip -e ; winget install --id=ChristianKindahl.InfraRecorder -e  ; winget install --id=SumatraPDF.SumatraPDF -e  ; winget install --id=IrfanSkiljan.IrfanView -e  ; winget install --id=Mozilla.Firefox -e  ; winget install --id=Google.Chrome -e  ; winget install --id=MoonchildProductions.PaleMoon -e  ; winget install --id=VideoLAN.VLC -e  ; winget install --id=TheDocumentFoundation.LibreOffice -e  ; winget install --id=TheDocumentFoundation.LibreOffice.HelpPack -e  ; winget install --id=GIMP.GIMP -e  ; winget install --id=Audacity.Audacity -e  ; winget install --id=BlenderFoundation.Blender -e  ; winget install --id=GlennDelahoy.SnappyDriverInstallerOrigin -e
-
+    winget install --id=7zip.7zip -e ; winget install --id=ChristianKindahl.InfraRecorder -e ; winget install --id=SumatraPDF.SumatraPDF -e ; winget install --id=IrfanSkiljan.IrfanView -e ; winget install --id=Mozilla.Firefox -e ; winget install --id=Google.Chrome -e ; winget install --id=MoonchildProductions.PaleMoon -e ; winget install --id=VideoLAN.VLC -e ; winget install --id=TheDocumentFoundation.LibreOffice -e ; winget install --id=TheDocumentFoundation.LibreOffice.HelpPack -e ; winget install --id=GIMP.GIMP -e ; winget install --id=Audacity.Audacity -e ; winget install --id=BlenderFoundation.Blender -e ; winget install --id=Oracle.JavaRuntimeEnvironment -e ; winget install --id=Microsoft.Office -e
     ```
 
 !!! warning "Προσοχή"
     - Η παραπάνω εντολή δεν περιλαμβάνει τις εφαρμογές:
-        - [Σουίτα γραφείου MS Office](msoffice.md),
-        - [Αναπαραγωγή πολυμέσων Flash με το Flash Player για αξιοποίηση παλαιότερου εκπαιδευτικού λογισμικού που βασίζεται σε τεχνολογία flash](flash.md)
-        - [Περιβάλλον υποστήριξης Java Εφαρμογών για αξιοποίηση παλαιότερου εκπαιδευτικού λογισμικού που βασίζεται σε τεχνολογία java](java.md)
+        - [Έλεγχος / ενημέρωση εγκατεστημένων οδηγών με το Snappy Driver Installer](snappy-driver), καθώς δεν υποστηρίζεται από το αποθετήριο,
+        - [Αναπαραγωγή πολυμέσων Flash με το Flash Player για αξιοποίηση παλαιότερου εκπαιδευτικού λογισμικού που βασίζεται σε τεχνολογία flash](flash.md), καθώς είναι παλιότερο λογισμικό που δεν υπάρχει στο αποθετήριο,
+    - Θα πρέπει να ρυθμίσετε τον κόμβο της Τεχνικής Στήριξης ως ασφαλή για την εκτέλεση των java εκπαιδευτικών λογισμικών στο [Περιβάλλον υποστήριξης Java Εφαρμογών για αξιοποίηση παλαιότερου εκπαιδευτικού λογισμικού που βασίζεται σε τεχνολογία java](java.md)
