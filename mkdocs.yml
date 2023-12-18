@@ -62,23 +62,25 @@ theme:
 nav:
   - index.md
   - Αυτόνομες Εγκαταστάσεις:
-      - Windows 10:
-        - 10/index.md
-        - 10/requirements.md
-        - 10/compatibility.md
-        - 10/installation/index.md
+      - Windows 11:
+        - client/index.md
+        - client/requirements.md
+        - client/compatibility.md
+        - client/installation/index.md
         - Μετέπειτα Ενέργειες:
-          - 10/peripherals.md
-          - 10/create-users.md
-      - Windows Server 2019:
-        - 2019/index.md
-        - 2019/requirements.md
-        - 2019/compatibility.md
-        - 2019/installation/index.md
-        - 2019/basic-settings/index.md
+          - client/software.md
+          - client/peripherals.md
+          - client/create-users.md
+      - Windows Server 2022:
+        - server/index.md
+        - server/requirements.md
+        - server/compatibility.md
+        - server/installation/index.md
+        - server/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
-          - 2019/peripherals.md
-          - 2019/create-users.md
+          - server/software.md
+          - server/peripherals.md
+          - server/create-users.md
   - Προσθήκη λογισμικού:
       - software/index.md
       - software/7zip.md
