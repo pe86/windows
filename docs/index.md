@@ -3,7 +3,7 @@
 !!! tip ""
     Το παρόν εγχειρίδιο αναφέρεται κυρίως σε σχολεία που στα Σ.Ε.Π.Ε.Η.Υ. τους
     χρησιμοποιούν Windows. Είναι διαθέσιμο σε [μορφή
-    pdf](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/382-odigos-egkatastasis-diamorfosis-ms-windows-2019-ms-windows-10) στη
+    pdf](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/odigos-egkatastasis-diamorfosis-ms-windows-2019-ms-windows-10) στη
     [Βιβλιοθήκη Εγγράφων](https://ts.sch.gr/docs) του [Ενημερωτικού Κόμβου της
     Τεχνικής Στήριξης](https://ts.sch.gr), όπου επιπλέον διατίθενται οδηγοί και
     για παλαιότερες εκδόσεις των Windows.
@@ -42,6 +42,6 @@ computing](https://en.wikipedia.org/wiki/Centralized_computing)).
 - στο μοντέλο [centralized-computing](server-based/index.md) (με εξυπηρετητή Remote Desktop Session Host).
 
 !!! info "Πληροφορία"
-    Σε περίπτωση που επιθυμείτε αυτόνομη εγκατάσταση (standalone) ενός σταθμού εργασίας ή ενός εξυπηρετητή με Windows ακολουθήστε τις οδηγίες για [Windows 10](10/index.md) και για [Windows Server 2019](2019/index.md).
+    Σε περίπτωση που επιθυμείτε αυτόνομη εγκατάσταση (standalone) ενός σταθμού εργασίας ή ενός εξυπηρετητή με Windows ακολουθήστε τις οδηγίες για [Windows 11](client/index.md) και για [Windows Server 2022](server/index.md).
 
     Οι οδηγίες αυτές αποτελούν το 1ο βήμα για την υλοποίηση των προτεινόμενων αρχιτεκτονικών.
