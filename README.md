@@ -1,7 +1,7 @@
 # Τεκμηρίωση για ΣΕΠΕΗΥ με Windows
 
 Το παρόν repository αποτελεί τον πηγαίο κώδικα της σελίδας
-https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/382-odigos-egkatastasis-diamorfosis-ms-windows-2019-ms-windows-10.
+https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/odegos-enkatastases-diamorphoses-ms-windows-server-2022-ms-windows-11
 
 ## Linux development environment
 
