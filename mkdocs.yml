@@ -31,7 +31,7 @@ plugins:
       cover_subtitle: Οδηγός εγκατάστασης, διαμόρφωσης & χρήσης
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
-      ordered_chapter_level: 2
+      ordered_chapter_level: 3
       output_path: windows.pdf
       toc_level: 3
       toc_title: Πίνακας περιεχομένων
@@ -145,4 +145,3 @@ nav:
         - server-based/additional-software.md
         - server-based/rdsh-customization.md
         - server-based/rds-license-setup.md
-      - 10/index.md
