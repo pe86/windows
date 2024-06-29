@@ -1,4 +1,4 @@
-copyright: Copyright © 2008-2023 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
+copyright: Copyright © 2008-2024 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
 dev_addr: 0.0.0.0:7101
 edit_uri: tree/main/docs
 extra_css:
@@ -26,14 +26,14 @@ plugins:
   - search
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/wiki/windows
-      copyright: Copyright © 2008-2023 Τεχνική Στήριξη ΣΕΠΕΗΥ
+      copyright: Copyright © 2008-2024 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Windows
       cover_subtitle: Οδηγός εγκατάστασης, διαμόρφωσης & χρήσης
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 2
       output_path: windows.pdf
-      toc_level: 2
+      toc_level: 3
       toc_title: Πίνακας περιεχομένων
 repo_url: https://github.com/pe86/windows
 site_name: Τεχνική Στήριξη ΣΕΠΕΗΥ
@@ -67,6 +67,7 @@ nav:
         - client/requirements.md
         - client/compatibility.md
         - client/installation/index.md
+        - client/installation/unattended/index.md
         - client/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
           - client/software.md
