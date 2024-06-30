@@ -86,7 +86,8 @@ nav:
   - Client Server Αρχιτεκτονική:
         - clientserver/index.md
         - clientserver/architecture.md
-        - serverbased/index.md
+  - Centralized Computing Αρχιτεκτονική:
+        - server-based/index.md
         - server-based/architecture.md
   - Προσθήκη λογισμικού:
       - software/index.md
