@@ -38,7 +38,7 @@ computing](https://en.wikipedia.org/wiki/Centralized_computing)).
 
 Ανάλογα με το υπολογιστικό μοντέλο που θα επιλέξετε να υλοποιήσετε, ακολουθήστε τις οδηγίες για την υλοποίηση λύσης βασισμένης:
 
-- στο μοντέλο [client-server](client-server/index.md) (με εξυπηρετητή Domain Controller).
+- στο μοντέλο [client-server](clientserver/index.md) (με εξυπηρετητή Domain Controller).
 - στο μοντέλο [centralized-computing](server-based/index.md) (με εξυπηρετητή Remote Desktop Session Host).
 
 !!! info "Πληροφορία"
