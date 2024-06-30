@@ -94,7 +94,7 @@
 
 ### Εισαγωγή προτεινόμενων πολιτικών ασφαλείας
 
-Για διευκόλυνση ενεργοποίησης των προτεινόμενων πολιτικών προσφέρονται αντίγραφα ασφαλείας των [SEPEHY Shared Accounts Policy και SEPEHY Workstations Policy](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/344-sepehy-w2k8-gpo), τα οποία μπορείτε να εισάγετε στο domains σας μέσω της εισαγωγής ρυθμίσεων. Η διαδικασία εισαγωγής είναι η ακόλουθη:
+Για διευκόλυνση ενεργοποίησης των προτεινόμενων πολιτικών προσφέρονται αντίγραφα ασφαλείας των [SEPEHY Shared Accounts Policy και SEPEHY Workstations Policy](https://ts.sch.gr/~documents/odigies-egkatastasis-diaxirisis/sepehy-w2k8-gpo/), τα οποία μπορείτε να εισάγετε στο domains σας μέσω της εισαγωγής ρυθμίσεων. Η διαδικασία εισαγωγής είναι η ακόλουθη:
 
 - Αποσυμπιέζουμε τα αρχεία πολιτικών ομάδας σε κάποιο φάκελο (πχ. c:\backup).
 - Από την κονσόλα `Group Policy Management` δημιουργούμε τις προτεινόμενες πολιτικές ως ονόματα. Κατόπιν με ***δεξί click στην κάθε πολιτική*** ▸ ***Import Settings...***.
