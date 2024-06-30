@@ -87,6 +87,7 @@ nav:
         - clientserver/index.md
         - clientserver/architecture.md
         - serverbased/index.md
+        - server-based/architecture.md
   - Προσθήκη λογισμικού:
       - software/index.md
       - Για αρχάριους:
