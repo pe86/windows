@@ -85,6 +85,7 @@ nav:
          - server/create-users.md
   - Server Based Αρχιτεκτονική:
     - serverbased/index.md
+    - serverbased/architecture.md
   - Προσθήκη λογισμικού:
     - software/index.md
     - software/7zip.md
