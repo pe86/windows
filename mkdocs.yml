@@ -88,23 +88,24 @@ nav:
         - server-based/architecture.md
   - Προσθήκη λογισμικού:
       - software/index.md
-      - software/7zip.md
-      - software/infrarecorder.md
-      - software/sumatrapdf.md
-      - software/irfanview.md
-      - software/firefox.md
-      - software/chrome.md
-      - software/palemoon.md
-      - software/vlc.md
-      - software/flash.md
-      - software/java.md
-      - software/libreoffice.md
-      - software/msoffice.md
-      - software/gimp.md
-      - software/audacity.md
-      - software/blender.md
-      - software/snappy-driver.md
-      - software/sch-scripts.md
+      - Για αρχάριους:
+        - software/7zip.md
+        - software/infrarecorder.md
+        - software/sumatrapdf.md
+        - software/irfanview.md
+        - software/firefox.md
+        - software/chrome.md
+        - software/palemoon.md
+        - software/vlc.md
+        - software/flash.md
+        - software/java.md
+        - software/libreoffice.md
+        - software/msoffice.md
+        - software/gimp.md
+        - software/audacity.md
+        - software/blender.md
+        - software/snappy-driver.md
+        - software/sch-scripts.md
       - Για προχωρημένους:
         - software/advanced/index.md
         - software/advanced/veyon.md
