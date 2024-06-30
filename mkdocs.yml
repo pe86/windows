@@ -83,9 +83,9 @@ nav:
           - server/software.md
           - server/peripherals.md
           - server/create-users.md
-    - Client Server Αρχιτεκτονική:
-      - clientserver/index.md
-    - Προσθήκη λογισμικού:
+  - Client Server Αρχιτεκτονική:
+    - clientserver/index.md
+  - Προσθήκη λογισμικού:
     - software/index.md
     - software/7zip.md
     - software/infrarecorder.md
