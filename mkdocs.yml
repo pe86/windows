@@ -84,36 +84,36 @@ nav:
           - server/peripherals.md
           - server/create-users.md
     - Προσθήκη λογισμικού:
-    - software/index.md
-    - software/7zip.md
-    - software/infrarecorder.md
-    - software/sumatrapdf.md
-    - software/irfanview.md
-    - software/firefox.md
-    - software/chrome.md
-    - software/palemoon.md
-    - software/vlc.md
-    - software/flash.md
-    - software/java.md
-    - software/libreoffice.md
-    - software/msoffice.md
-    - software/gimp.md
-    - software/audacity.md
-    - software/blender.md
-    - software/snappy-driver.md
-    - software/sch-scripts.md
-    - Για προχωρημένους:
-      - software/advanced/index.md
-      - software/advanced/veyon.md
-      - software/advanced/virtualbox.md
-      - software/advanced/remote-access.md
-      - software/advanced/updates-share.md
-      - software/advanced/squid.md
+        - software/index.md
+        - software/7zip.md
+        - software/infrarecorder.md
+        - software/sumatrapdf.md
+        - software/irfanview.md
+        - software/firefox.md
+        - software/chrome.md
+        - software/palemoon.md
+        - software/vlc.md
+        - software/flash.md
+        - software/java.md
+        - software/libreoffice.md
+        - software/msoffice.md
+        - software/gimp.md
+        - software/audacity.md
+        - software/blender.md
+        - software/snappy-driver.md
+        - software/sch-scripts.md
+        - Για προχωρημένους:
+          - software/advanced/index.md
+          - software/advanced/veyon.md
+          - software/advanced/virtualbox.md
+          - software/advanced/remote-access.md
+          - software/advanced/updates-share.md
+          - software/advanced/squid.md
   - Client Server Αρχιτεκτονική:
-    - clientserver/index.md
-    - Περιγραφή της Αρχιτεκτονικής:
-      - clientserver/architecture.md
-      - clientserver/advantages.md
+      - clientserver/index.md
+      - Περιγραφή της Αρχιτεκτονικής:
+        - clientserver/architecture.md
+      -  clientserver/advantages.md
       - clientserver/disadvantages.md
       - clientserver/requirements.md
     - Οδηγίες εγκατάστασης:
