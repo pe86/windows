@@ -62,17 +62,17 @@ theme:
 nav:
   - index.md
   - Αυτόνομες Εγκαταστάσεις:
-      - Windows 11:
-        - client/index.md
-        - client/requirements.md
-        - client/compatibility.md
-        - client/installation/index.md
-        - client/installation/unattended/index.md
-        - client/basic-settings/index.md
-        - Μετέπειτα Ενέργειες:
-          - client/software.md
-          - client/peripherals.md
-          - client/create-users.md
+     - Windows 11:
+      - client/index.md
+      - client/requirements.md
+      - client/compatibility.md
+      - client/installation/index.md
+      - client/installation/unattended/index.md
+      - client/basic-settings/index.md
+      - Μετέπειτα Ενέργειες:
+        - client/software.md
+        - client/peripherals.md
+        - client/create-users.md
       - Windows Server 2022:
         - server/index.md
         - server/requirements.md
@@ -80,9 +80,9 @@ nav:
         - server/installation/index.md
         - server/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
-          - server/software.md
-          - server/peripherals.md
-          - server/create-users.md
+         - server/software.md
+         - server/peripherals.md
+         - server/create-users.md
   - Client Server Αρχιτεκτονική:
     - clientserver/index.md
   - Προσθήκη λογισμικού:
