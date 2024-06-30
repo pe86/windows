@@ -110,22 +110,22 @@ nav:
         - software/advanced/updates-share.md
         - software/advanced/squid.md
   - Client Server Αρχιτεκτονική:
-    - clientserver/index.md
-    - Περιγραφή της Αρχιτεκτονικής:
-      - clientserver/architecture.md
-      - clientserver/advantages.md
-      - clientserver/disadvantages.md
-      - clientserver/requirements.md
-    - Οδηγίες εγκατάστασης:
-      - clientserver/server-setup-dc/index.md
-      - clientserver/domain-policy/index.md
-      - clientserver/client-domain-join/index.md
-      - clientserver/create-users.md
-    - Μετέπειτα ενέργειες:
-      - clientserver/guides.md
-      - clientserver/peripherals.md
-      - Για προχωρημένους:
-        - clientserver/advanced.md
+      - clientserver/index.md
+      - Περιγραφή της Αρχιτεκτονικής:
+        - clientserver/architecture.md
+        - clientserver/advantages.md
+        - clientserver/disadvantages.md
+        - clientserver/requirements.md
+      - Οδηγίες εγκατάστασης:
+        - clientserver/server-setup-dc/index.md
+        - clientserver/domain-policy/index.md
+        - clientserver/client-domain-join/index.md
+        - clientserver/create-users.md
+      - Μετέπειτα ενέργειες:
+        - clientserver/guides.md
+        - clientserver/peripherals.md
+        - Για προχωρημένους:
+          - clientserver/advanced.md
   - Centralized Computing Αρχιτεκτονική:
     - server-based/index.md
     - Περιγραφή της Αρχιτεκτονικής:
