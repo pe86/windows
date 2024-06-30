@@ -83,6 +83,9 @@ nav:
           - server/software.md
           - server/peripherals.md
           - server/create-users.md
+  - Server Based:
+        - serverbased/index.md
+        - server-based/architecture.md
   - Προσθήκη λογισμικού:
       - software/index.md
       - software/7zip.md
@@ -109,9 +112,6 @@ nav:
         - software/advanced/remote-access.md
         - software/advanced/updates-share.md
         - software/advanced/squid.md
-      - Server Based:
-        - serverbased/index.md
-        - server-based/architecture.md
   - Client Server Αρχιτεκτονική:
       - clientserver/index.md
       - Περιγραφή της Αρχιτεκτονικής:
