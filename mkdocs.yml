@@ -102,7 +102,23 @@ nav:
           - clientserver/advanced.md
   - Centralized Computing Αρχιτεκτονική:
         - server-based/index.md
-        - server-based/architecture.md
+        - Περιγραφή Αρχιτεκτονικής:
+          - server-based/architecture.md
+          - server-based/advantages.md
+          - server-based/disadvantages.md
+          - server-based/requirements.md
+        - Οδηγίες εγκατάστασης:
+          - server-based/server-setup-rdsh/index.md
+          - server-based/client-connect-rdsh.md
+          - server-based/create-users.md
+        - Μετέπειτα ενέργειες:
+          - server-based/guides.md
+          - server-based/peripherals.md
+        - Για προχωρημένους:
+          - server-based/advanced.md
+          - server-based/additional-software.md
+          - server-based/rdsh-customization.md
+          - server-based/rds-license-setup.md
   - Προσθήκη λογισμικού:
       - software/index.md
       - Για αρχάριους:
