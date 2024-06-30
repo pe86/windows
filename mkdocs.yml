@@ -109,6 +109,9 @@ nav:
         - software/advanced/remote-access.md
         - software/advanced/updates-share.md
         - software/advanced/squid.md
+      - Server Based:
+        -serverbased/index.md
+        -server-based/architecture.md
   - Client Server Αρχιτεκτονική:
       - clientserver/index.md
       - Περιγραφή της Αρχιτεκτονικής:
