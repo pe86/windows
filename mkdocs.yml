@@ -110,7 +110,7 @@ nav:
       - software/advanced/updates-share.md
       - software/advanced/squid.md
   - Client Server Αρχιτεκτονική:
-    - client-server/index.md
+    - "client-server/index.md"
     - Περιγραφή της Αρχιτεκτονικής:
       - client-server/architecture.md
       - client-server/advantages.md
