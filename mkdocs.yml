@@ -132,9 +132,9 @@ nav:
         - Για προχωρημένους:
           - clientserver/advanced.md
   - Centralized Computing Αρχιτεκτονική:
-    - server-based/index.md
+    - serverbased/index.md
     - Περιγραφή της Αρχιτεκτονικής:
-      - server-based/architecture.md
+      - serverbased/architecture.md
       - server-based/advantages.md
       - server-based/disadvantages.md
       - server-based/requirements.md
