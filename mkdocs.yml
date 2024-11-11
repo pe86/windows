@@ -78,6 +78,7 @@ nav:
         - server/requirements.md
         - server/compatibility.md
         - server/installation/index.md
+        - server/installation/unattended/index.md
         - server/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
           - server/software.md
