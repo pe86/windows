@@ -10,8 +10,8 @@
 
 Για να εγκαταστήσετε την εφαρμογή ακολουθήστε τα παρακάτω βήματα:
 
-- Μεταβείτε στην ιστοσελίδα <https://www.blender.org/download/> και επιλέξτε να κατεβάσετε την πιο πρόσφατη έκδοση του Audacity επιλέγοντας ***Download Blender 3.x.y***.
-- Αποθηκεύστε το εκτελέσιμο και στην συνέχεια, εάν δεν εκκινήσει αυτόματα, κάντε διπλό κλικ στο εικονίδιο `blender-3.x.y-windows64.msi`.
+- Μεταβείτε στην ιστοσελίδα <https://www.blender.org/download/> και επιλέξτε να κατεβάσετε την πιο πρόσφατη έκδοση του Blender επιλέγοντας ***Download Blender 4.x.y***.
+- Αποθηκεύστε το εκτελέσιμο και στην συνέχεια, εάν δεν εκκινήσει αυτόματα, κάντε διπλό κλικ στο εικονίδιο `blender-4.x.y-windows64.msi`.
 - Επιλέξτε ***Next***
 - Αποδεχθείτε τους όρους χρήσης ☑ I accept the terms in the license agreement και επιλέξτε ***Next***
 - Αποδεχθείτε την προτεινόμενη εγκατάσταση και επιλέξτε ***Next*** και κατόπιν ***Install***
@@ -20,7 +20,7 @@
 
 ## Οδηγίες χρήσης
 
-Δείτε στη σελίδα https://docs.blender.org/manual/en/latest/index.html το εγχειρίδιο χρήσης του `Blender` (στην αγγλική γλώσσα) και στη στελίδα <https://www.blender.org/support/tutorials/> ένα σύνολο από εκπαιδευτικούς οδηγούς (στην αγγλική γλώσσα).
+Δείτε στη σελίδα https://docs.blender.org/manual/en/latest/index.html το εγχειρίδιο χρήσης του `Blender` (στην αγγλική γλώσσα) και στη σελίδα <https://www.blender.org/support/tutorials/> ένα σύνολο από εκπαιδευτικούς οδηγούς (στην αγγλική γλώσσα) σε youtube, X κτλ.
 
 !!! powershell "PowerShell (administrator): Εγκατάσταση Blender"
     ```shell
