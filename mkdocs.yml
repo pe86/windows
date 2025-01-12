@@ -67,6 +67,7 @@ nav:
         - client/requirements.md
         - client/compatibility.md
         - client/installation/index.md
+        - client/installation/manual/index.md
         - client/installation/unattended/index.md
         - client/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
