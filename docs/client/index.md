@@ -7,7 +7,7 @@
 
 - [Ελάχιστες Απαιτήσεις υλικού σταθμού εργασίας](requirements.md)
 - [Έλεγχος Συμβατότητας υλικού σταθμού εργασίας](compatibility.md)
-- [Eγκατάσταση λειτουργικού συστήματος](installation/index.md)
+- [Χειροκίνητη Eγκατάσταση](installation/index.md) ή [Αυτοματοποιημένη Εγκατάσταση](installation/unattended/index.md) λειτουργικού συστήματος
 - [Βασικές ρυθμίσεις λειτουργικού συστήματος](basic-settings/index.md)
 - [Εγκατάσταση λογισμικού](../software/index.md)
 
