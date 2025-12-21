@@ -1,4 +1,4 @@
-copyright: Copyright © 2008-2025 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
+copyright: Copyright © 2008-2026 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
 dev_addr: 0.0.0.0:7101
 edit_uri: tree/main/docs
 extra_css:
@@ -31,7 +31,7 @@ plugins:
   - search
   - with-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/wiki/windows
-      copyright: Copyright © 2008-2025 Τεχνική Στήριξη ΣΕΠΕΗΥ
+      copyright: Copyright © 2008-2026 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Windows
       cover_subtitle: Οδηγός εγκατάστασης, διαμόρφωσης & χρήσης
       enabled_if_env: ENABLE_PDF_EXPORT
