@@ -48,6 +48,8 @@ theme:
 # favicon: favicon.ico
   features:
     - todo-navigation.instant
+    # https://squidfunk.github.io/mkdocs-material/upgrade/#contentcodecopy
+    - content.code.copy
   language: el
   # Enable `locale: el` when it becomes available
   # https://www.mkdocs.org/user-guide/choosing-your-theme/#mkdocs-locale
