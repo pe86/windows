@@ -238,7 +238,7 @@ Windows 2016 Server χωρίς ενεργοποίηση. Η βέλτιστη μ�
 [![](04-Enable-File-and-Print-Sharing.png)](04-Enable-File-and-Print-Sharing.png)
 [![](05-Enable-File-and-Print-Sharing-2.png)](05-Enable-File-and-Print-Sharing-2.png)
 
-Αρχικά θα πρέπει να ενεργοποιηθεί ο διαμοιρασμός αρχείων και εκτυπωτών για το τοπικό δίκτυο που έχει χαρακτηριστεί ιδιωτικό (private) [σε προηγούμενο βήμα](../installation/index.md#private-network).
+Αρχικά θα πρέπει να ενεργοποιηθεί ο διαμοιρασμός αρχείων και εκτυπωτών για το τοπικό δίκτυο που έχει χαρακτηριστεί ιδιωτικό (private) [σε προηγούμενο βήμα](../../server/basic-settings/index.md#private-network).
 
 - Ανοίξτε τον Πίνακα Ελέγχου (Control Panel).
 - Στην ενότητα **Network and Internet**, επιλέξτε ***View Network Status and tasks***
