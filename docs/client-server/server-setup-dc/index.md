@@ -17,7 +17,7 @@
     Πριν την αναβάθμιση ενός Windows Server σε Domain Controller θα πρέπει για
     τον ίδιο τον εξυπηρετητή να οριστεί στις παραμέτρους του TCP/IP να
     χρησιμοποιεί ως DNS server τον εαυτό του (την IP address 10.x.y.10 που
-    ορίσαμε [σε προηγούμενο βήμα](../../server/installation/index.md#server-ip-dns-settings) αφαιρώντας τους DNS Servers του Π.Σ.Δ. Ο λόγος
+    ορίσαμε [σε προηγούμενο βήμα](../../server/basic-settings/index.md#server-ip-dns-settings) αφαιρώντας τους DNS Servers του Π.Σ.Δ. Ο λόγος
     είναι ότι η εγκατάσταση του Domain Controller ρόλου προχωρά στην
     εγκατάσταση του DNS Server ρόλου στον εξυπηρετητή για το Domain που θα
     δημιουργηθεί.
