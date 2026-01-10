@@ -52,7 +52,7 @@
     - Εάν δεν διαθέτε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να μην τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στη συνέχεια να κάνετε κλικ στην επιλογή **Finish**.
     - Εάν διαθέτετε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στην συνέχεια να κάνετε κλικ στην επιλογή **Next**. Στην συνέχεια ακολουθήστε τα βήματα που περιγράφονται στις επόμενες ενότητες.
 
-## Εγκατάσταση αδειών{#rds-license-setup}
+## Εγκατάσταση αδειών {#rds-license-setup}
 
 !!! warning "Προσοχή"
     Αν δεν διαθέτε άδειες προσπεράστε την παρούσα ενότητα.
