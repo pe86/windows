@@ -1,0 +1,3946 @@
+
+<!doctype html>
+<html lang="el" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ts.sch.gr/wiki/windows/software/advanced/remote-access/">
+      
+      
+        <link rel="prev" href="../virtualbox/">
+      
+      
+        <link rel="next" href="../updates-share/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Απομακρυσμένη πρόσβαση - Τεχνική Στήριξη ΣΕΠΕΗΥ</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#απομακρυσμένη-πρόσβαση" class="md-skip">
+          Μετάβαση στο περιεχόμενο
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Κεφαλίδα">
+    <a href="../../.." title="Τεχνική Στήριξη ΣΕΠΕΗΥ" class="md-header__button md-logo" aria-label="Τεχνική Στήριξη ΣΕΠΕΗΥ" data-md-component="logo">
+      
+  <img src="../../../stylesheets/ts-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Τεχνική Στήριξη ΣΕΠΕΗΥ
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Απομακρυσμένη πρόσβαση
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Αλλαγή σε σκούρο θέμα"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Αλλαγή σε σκούρο θέμα" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Αλλαγή σε ανοιχτό θέμα"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Αλλαγή σε ανοιχτό θέμα" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Αναζήτηση" placeholder="Αναζήτηση" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Αναζήτηση">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Καθαρισμός" aria-label="Καθαρισμός" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Αρχικοποίηση αναζήτησης
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/pe86/windows" title="Μετάβαση στο αποθετήριο" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Πλοήγηση" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Τεχνική Στήριξη ΣΕΠΕΗΥ" class="md-nav__button md-logo" aria-label="Τεχνική Στήριξη ΣΕΠΕΗΥ" data-md-component="logo">
+      
+  <img src="../../../stylesheets/ts-logo.png" alt="logo">
+
+    </a>
+    Τεχνική Στήριξη ΣΕΠΕΗΥ
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/pe86/windows" title="Μετάβαση στο αποθετήριο" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγχειρίδιο Windows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Αυτόνομες Εγκαταστάσεις
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Αυτόνομες Εγκαταστάσεις
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Windows 11
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Windows 11
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση σταθμού εργασίας
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Απαιτήσεις υλικού σταθμών εργασίας
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/compatibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Έλεγχος συμβατότητας υλικού
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_4" id="__nav_2_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Εγκατάσταση
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση λειτουργικού συστήματος
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/installation/rufus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση Windows 11 με αξιοποίηση του εργαλείου Rufus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/installation/manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Χειροκίνητη εγκατάσταση λειτουργικού συστήματος
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/installation/unattended/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Αυτοματοποιημένη εγκατάσταση λειτουργικού συστήματος
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/basic-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Βασικές ρυθμίσεις σταθμού εργασίας
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_6" id="__nav_2_1_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Μετέπειτα Ενέργειες
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Μετέπειτα Ενέργειες
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Προσθήκη λογισμικού
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/peripherals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση περιφερειακών συσκευών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client/create-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Δημιουργία "τοπικών" χρηστών και ομάδων χρηστών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Windows Server 2022
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Windows Server 2022
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση εξυπηρετητή Windows Server
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Απαιτήσεις υλικού εξυπηρετητή
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/compatibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Έλεγχος συμβατότητας υλικού
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Εγκατάσταση
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση λειτουργικού συστήματος
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/installation/manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Χειροκίνητη εγκατάσταση λειτουργικού συστήματος
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/installation/unattended/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Αυτοματοποιημένη εγκατάσταση λειτουργικού συστήματος
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/basic-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Βασικές ρυθμίσεις εξυπηρετητή
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6" id="__nav_2_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Μετέπειτα Ενέργειες
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Μετέπειτα Ενέργειες
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Προσθήκη λογισμικού
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/peripherals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση περιφερειακών συσκευών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/create-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Δημιουργία χρηστών και ομάδων χρηστών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client Server Αρχιτεκτονική
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Client Server Αρχιτεκτονική
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Σ.Ε.Π.Ε.Η.Υ με Domain Controller (Αρχιτεκτονική client-server)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Περιγραφή Αρχιτεκτονικής
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Περιγραφή Αρχιτεκτονικής
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Αρχιτεκτονική
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/advantages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Πλεονεκτήματα χρήσης Active Directory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/disadvantages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Μειονεκτήματα χρήσης Active Directory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Απαιτήσεις
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Οδηγίες εγκατάστασης
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Οδηγίες εγκατάστασης
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/server-setup-dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ρύθμιση Windows Active Directory και Domain Controller
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/domain-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Πολιτικές Domain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/client-domain-join/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Σύνδεση σταθμού εργασίας στο domain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/create-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Δημιουργία χρηστών και ομάδων χρηστών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Μετέπειτα ενέργειες
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Μετέπειτα ενέργειες
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Οδηγοί χρήσης Windows Server &amp; Active Directory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/peripherals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση περιφερειακών συσκευών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Για προχωρημένους
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Για προχωρημένους
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../client-server/advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ειδικά θέματα
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Centralized Computing Αρχιτεκτονική
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Centralized Computing Αρχιτεκτονική
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Σ.Ε.Π.Ε.Η.Υ με Remote Desktop Session Host (RD Session Host Server - Centralized Computing αρχιτεκτονική)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Περιγραφή Αρχιτεκτονικής
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Περιγραφή Αρχιτεκτονικής
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Αρχιτεκτονική
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/advantages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Πλεονεκτήματα
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/disadvantages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Μειονεκτήματα
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Απαιτήσεις
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Οδηγίες εγκατάστασης
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Οδηγίες εγκατάστασης
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/server-setup-rdsh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση Windows RDSH Server
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/client-connect-rdsh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ρύθμιση σταθμού εργασίας
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/create-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Δημιουργία χρηστών για Remote Desktop Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Μετέπειτα ενέργειες
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Μετέπειτα ενέργειες
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Οδηγοί χρήσης Windows Remote Desktop Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/peripherals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση περιφερειακών συσκευών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Για προχωρημένους
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Για προχωρημένους
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ειδικά θέματα
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/additional-software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Επιπλέον υπηρεσίες / λογισμικό
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/rdsh-customization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Παραμετροποίηση RDSH
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server-based/rds-license-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση αδειών Remote Desktop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Προσθήκη λογισμικού
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Προσθήκη λογισμικού
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Εγκατάσταση λογισμικού σε Λ/Σ Windows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Για αρχάριους
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Για αρχάριους
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7zip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή 7zip
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../infrarecorder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή InfraRecorder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sumatrapdf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή Sumatra PDF
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../irfanview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή προβολής εικόνων IrfanView
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firefox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή Mozilla Firefox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chrome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή Google Chrome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../palemoon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή Pale Moon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vlc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή VLC Player
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../flash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή Adobe Flash Player
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../java/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η πλατφόρμα java
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../libreoffice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η σουίτα εφαρμογών γραφείου LibreOffice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../msoffice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η σουίτα εφαρμογών γραφείου Microsoft Office
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gimp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή επεξεργασίας εικόνων GIMP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../audacity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή επεξεργασίας ήχου Audacity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blender/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή σχεδίασης τρισδιάστατων γραφικών Blender
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../snappy-driver/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή ενημέρωσης των οδηγών του υλικού Snappy Driver Installer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sch-scripts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Η εφαρμογή sch-scripts για Windows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Για προχωρημένους
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Για προχωρημένους
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ενεργοποίηση επιπλέον υπηρεσιών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../veyon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Διαχείριση τάξης (Classroom management)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtualbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Παροχή εικονικών μηχανών
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Απομακρυσμένη πρόσβαση
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Απομακρυσμένη πρόσβαση
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Περιεχόμενα σελίδας">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Περιεχόμενα σελίδας
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#anydesk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anydesk
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anydesk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#μειονεκτήματα" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Μειονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#πρόσβαση-με-χρήση-πρωτοκόλλου-rdp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πρόσβαση με χρήση πρωτοκόλλου RDP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Πρόσβαση με χρήση πρωτοκόλλου RDP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#μειονεκτήματα_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Μειονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#πρόσβαση-με-χρήση-του-πρωτοκόλλου-rfb-vnc-και-αντίστροφη-σύνδεση" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πρόσβαση με χρήση του πρωτοκόλλου RFB (VNC) και αντίστροφη σύνδεση
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Πρόσβαση με χρήση του πρωτοκόλλου RFB (VNC) και αντίστροφη σύνδεση">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#μειονεκτήματα_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Μειονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#πρόσβαση-μέσω-της-εφαρμογής-rustdesk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πρόσβαση μέσω της εφαρμογής RustDesk
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Πρόσβαση μέσω της εφαρμογής RustDesk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#αρνητικά" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Αρνητικά
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../updates-share/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Διαμοίραση των αναβαθμίσεων των Windows στο τοπικό δίκτυο του Σ.Ε.Π.Ε.Η.Υ.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../squid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Διακομιστής Διαμεσολάβησης
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Περιεχόμενα σελίδας">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Περιεχόμενα σελίδας
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#anydesk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anydesk
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anydesk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#μειονεκτήματα" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Μειονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#πρόσβαση-με-χρήση-πρωτοκόλλου-rdp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πρόσβαση με χρήση πρωτοκόλλου RDP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Πρόσβαση με χρήση πρωτοκόλλου RDP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#μειονεκτήματα_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Μειονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#πρόσβαση-με-χρήση-του-πρωτοκόλλου-rfb-vnc-και-αντίστροφη-σύνδεση" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πρόσβαση με χρήση του πρωτοκόλλου RFB (VNC) και αντίστροφη σύνδεση
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Πρόσβαση με χρήση του πρωτοκόλλου RFB (VNC) και αντίστροφη σύνδεση">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#μειονεκτήματα_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Μειονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#πρόσβαση-μέσω-της-εφαρμογής-rustdesk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πρόσβαση μέσω της εφαρμογής RustDesk
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Πρόσβαση μέσω της εφαρμογής RustDesk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#πλεονεκτήματα_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Πλεονεκτήματα
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#αρνητικά" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Αρνητικά
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="απομακρυσμένη-πρόσβαση">Απομακρυσμένη πρόσβαση<a class="headerlink" href="#απομακρυσμένη-πρόσβαση" title="Permanent link">&para;</a></h1>
+<p>Για την απομακρυσμένη πρόσβαση στον εξυπηρετητή του Σ.Ε.Π.Ε.Η.Υ. ή στους σταθμούς εργασίας, υπάρχουν οι ακόλουθες δυνατότητες:</p>
+<div class="admonition tip">
+<p class="admonition-title">Συμβουλή</p>
+<p>Στις οδηγίες που ακολουθούν ζητείται η πραγματική IP του εξυπηρετητή. Εάν δεν την γνωρίζετε, επισκεφτείτε τη σελίδα <a href="https://ts.sch.gr/ip">https://ts.sch.gr/ip</a>.</p>
+</div>
+<h2 id="anydesk">Anydesk<a class="headerlink" href="#anydesk" title="Permanent link">&para;</a></h2>
+<p>Το <code>Anydesk</code> παρέχεται <strong>δωρεάν για προσωπική χρήση</strong> και διαθέτει δυνατότητες αντίστοιχες με του teamviewer, ενώ υποστηρίζει το σύνολο των διαδομένων λειτουργικών συστημάτων. Μπορείτε να το κατεβάσετε <a href="https://www.anydesk.com">από τη σελίδα του</a>, να το εγκαταστήσετε και κατόπιν να ρυθμίσετε έναν κωδικό για απομακρυσμένη πρόσβαση χωρίς επιβεβαίωση.</p>
+<div class="admonition powershell">
+<p class="admonition-title">PowerShell (administrator): Εγκατάσταση Anydesk</p>
+<div class="highlight"><pre><span></span><code>winget<span class="w"> </span>install<span class="w"> </span>--id<span class="o">=</span>AnyDeskSoftwareGmbH.AnyDesk<span class="w">  </span>-e
+</code></pre></div>
+</div>
+<h3 id="πλεονεκτήματα">Πλεονεκτήματα<a class="headerlink" href="#πλεονεκτήματα" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Δεν χρειάζεται να ασχοληθείτε με τις IP διευθύνσεις και τα DNS ονόματα που αναφέρονται στις παρακάτω ενότητες.</li>
+<li>Δεν εξαρτάται από το αν το Σ.Ε.Π.Ε.Η.Υ. διαθέτει δρομολογητή Π.Σ.Δ. (cisco, mikrotik κτλ) ή μόνο CPE του Cosmote</li>
+<li>Αρκεί να γνωρίζετε το 9-ψήφιο νούμερο που διαθέτει το <code>Anydesk</code> στον εξυπηρετητή στο πεδίο <strong><code>This Desk</code></strong> και να το δηλώσετε στην εφαρμογή <code>Anydesk</code> στο πεδίο <strong><code>Remote Desk</code></strong> σε οποιονδήποτε προσωπικό υπολογιστή με πρόσβαση στο διαδίκτυο.</li>
+</ul>
+<h3 id="μειονεκτήματα">Μειονεκτήματα<a class="headerlink" href="#μειονεκτήματα" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Η κίνηση "περνάει" από τους servers της anydesk, οπότε υπάρχουν θέματα ασφάλειας και επιδόσεων.</li>
+<li>Είναι δωρεάν για προσωπική χρήση</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Πληροφορία</p>
+<p>Μπορείτε να αυξήσετε την ασφάλεια της σύνδεσης εάν ενεργοποιήσετε και <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">Two Factor Authentication</a> πέραν του κωδικού απομακρυσμένης σύνδεσης.</p>
+</div>
+<h2 id="πρόσβαση-με-χρήση-πρωτοκόλλου-rdp">Πρόσβαση με χρήση πρωτοκόλλου RDP<a class="headerlink" href="#πρόσβαση-με-χρήση-πρωτοκόλλου-rdp" title="Permanent link">&para;</a></h2>
+<p>Τα MS Windows λειτουργικά συστήματα υποστηρίζουν απομακρυσμένη πρόσβαση με χρήση του πρωτοκόλλου Remote Desktop Connection <a href="https://en.wikipedia.org/wiki/Remote_Desktop_Protocol">RDP</a>. Στον εξυπηρετητή έχετε ήδη ενεργοποιήσει κατά το βήμα των <a href="../../../2019/basic-settings/">"Βασικών ρυθμίσεων εξυπηρετητή"</a> την απομακρυσμένη πρόσβαση μέσω RDP.</p>
+<p>Από ένα MS Windows λειτουργικό σύστημα μπορείτε να συνδεθείτε στον εξυπηρετητή:</p>
+<ul>
+<li>μέσω της εφαρμογής <code>Σύνδεση Απομακρυσμένης Επιφάνειας Εργασίας</code> ή αλλιώς <code>Remote Desktop Connection</code> για αγγλικό περιβάλλον.</li>
+<li>
+<p>Εναλλακτικά χρησιμοποιήστε την εντολή:</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mstsc<span class="w"> </span>/v:IP_διεύθυνση_του_εξυπηρετητή
+</code></pre></div>
+</li>
+</ul>
+<p>Από Linux λειτουργικά συστήματα μπορείτε να συνδεθείτε στον εξυπηρετητή μέσω της εφαρμογής <code>xfreerdp</code> με την εντολή:</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>xfreerdp<span class="w"> </span>/v:IP_διεύθυνση_του_εξυπηρετητή<span class="w"> </span>/relax-order-checks<span class="w"> </span>+glyph-cache<span class="w"> </span>/size:1600x900
+</code></pre></div>
+<h3 id="πλεονεκτήματα_1">Πλεονεκτήματα<a class="headerlink" href="#πλεονεκτήματα_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Όλα τα λειτουργικά συστήματα (windows, linux κτλ) διαθέτουν υποστήριξη του συγκεκριμένου πρωτοκόλλου.</li>
+</ul>
+<h3 id="μειονεκτήματα_1">Μειονεκτήματα<a class="headerlink" href="#μειονεκτήματα_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ιδιωτική IP διεύθυνση του εξυπηρετητή της μορφής (10.x.y.z) διαθέτουν μόνο τα Σ.Ε.Π.Ε.Η.Υ. με δρομολογητή Π.Σ.Δ. (cisco, mikrotik κτλ).</li>
+<li>Η ιδιωτική IP διεύθυνση του εξυπηρετητή (10.x.y.z) είναι προσβάσιμη <strong>μόνο</strong> από το τοπικό δίκτυο της σχολικής μονάδας, ή από το ιδιωτικό δίκτυο του Π.Σ.Δ. (10.0.0.0/8).</li>
+<li>Η πρόσβαση μέσω πρωτοκόλλου RDP (TCP θύρα 3389) στην πραγματική IP διεύθυνση του εξυπηρετητή, είτε διαθέτετε δρομολογητή Π.Σ.Δ. είτε μόνο CPE Cosmote, <strong>απαγορεύεται για λόγους ασφαλείας</strong> τόσο από το Π.Σ.Δ. όσο και από το CPE του Cosmote.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Συμβουλή</p>
+<p>Για Σ.Ε.Π.Ε.Η.Υ. που διαθέτουν μόνο CPE Cosmote είναι δυνατή η ρύθμιση του CPE για να επιτρέψει τις εισερχόμενες RDP συνδέσεις. Για Σ.Ε.Π.Ε.Η.Υ. που διαθέτουν δρομολογητή Π.Σ.Δ. είναι δυνατή η ρύθμιση του εξυπηρετητή να "ακούει" σε άλλη TCP θύρα. <strong>Όμως αυτές οι άρσεις των περιορισμών ασφάλειας καλό είναι να αποφεύγονται</strong>.</p>
+</div>
+<h2 id="πρόσβαση-με-χρήση-του-πρωτοκόλλου-rfb-vnc-και-αντίστροφη-σύνδεση">Πρόσβαση με χρήση του πρωτοκόλλου RFB (<em>VNC</em>) και αντίστροφη σύνδεση<a class="headerlink" href="#πρόσβαση-με-χρήση-του-πρωτοκόλλου-rfb-vnc-και-αντίστροφη-σύνδεση" title="Permanent link">&para;</a></h2>
+<p>Για την πραγματοποίηση αυτής της σύνδεσης προτείνεται να χρησιμοποιηθούν εφαρμογές που βασίζονται στην ανοιχτή τεχνολογία <a href="https://en.wikipedia.org/wiki/Virtual_Network_Computing">VNC</a> και αντίστοιχα στο πρωτόκολλο <a href="https://en.wikipedia.org/wiki/RFB_protocol">RFB</a> και οι οποίες υποστηρίζονται από περισσότερα γνωστά λειτουργικά συστήματα. Το <code>UltraVNC</code> είναι από τις πιο γνωστές ΕΛ/ΛΑΚ εφαρμογές που αξιοποιούν το συγκεκριμένο πρωτόκολλο και είναι διαθέσιμο στη σελίδα <a href="https://uvnc.com/downloads/ultravnc.html">https://uvnc.com/downloads/ultravnc.html</a>.</p>
+<div class="admonition powershell">
+<p class="admonition-title">PowerShell (administrator): Εγκατάσταση UltraVNC</p>
+<div class="highlight"><pre><span></span><code>winget<span class="w"> </span>install<span class="w"> </span>--id<span class="o">=</span>uvncbvba.UltraVNC<span class="w">  </span>-e
+</code></pre></div>
+</div>
+<p>Στον εξυπηρετητή εγκαθίσταται το κομμάτι του VNC εξυπηρετητή, το οποίο "ακούει" στην TCP θύρα 5900. Σε έναν οποιοδήποτε υπολογιστή που έχει πρόσβαση στο διαδίκτυο εγκαθίσταται το κομμάτι του VNC πελάτη. Για να επιτρέψει τη σύνδεση ο εξυπηρετητής ζητά έναν κωδικό ασφαλείας που έχετε ορίσει κατά την εγκατάστασή του.</p>
+<p>Με αυτόν τον τρόπο σύνδεσης το <code>UltraVNC</code> έχει τα ίδια προβλήματα με αυτά που αναφέρθηκαν και στο RDP πρωτόκολλο σε ότι αφορά την πολιτική ασφαλείας του Π.Σ.Δ. και αντίστοιχα τις ρυθμίσεις στο CPE του Cosmote</p>
+<p>Όμως το <code>UltraVNC</code> υποστηρίζει και <strong>αντίστροφή σύνδεση</strong> (<a href="https://en.wikipedia.org/wiki/Reverse_connection">reverse connection</a>). Το σκεπτικό είναι ο εξυπηρετητής (VNC Server) να ξεκινήσει αυτός σύνδεση προς τον πελάτη (κάτι που επιτρέπεται και από το Π.Σ.Δ. και από το CPE του Cosmote) και στη συνέχεια ο πελάτης να αποκτήσει πρόσβαση στον εξυπηρετητή. Για αυτόν το λόγο ο ultravnc πελάτης θα πρέπει να είναι σε κατάσταση αναμονής (Listen).</p>
+<p>Έτσι στον εξυπηρετητή δίνετε την εντολή:</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>c:<span class="se">\p</span>rogram<span class="w"> </span>files<span class="se">\u</span>vnc<span class="w"> </span>uvba<span class="se">\u</span>ltravnc<span class="se">\w</span>invnc<span class="w"> </span>-connect<span class="w"> </span>ip_του_γρ._ΠΛΗΝΕΤ_ή_του_σπιτιού_σας<span class="w"> </span>-run
+</code></pre></div>
+<p>Στον Η/Υ του σπιτιού σας ή του γραφείου ΠΛΗΝΕΤ δίνετε την εντολή:</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>c:<span class="se">\p</span>rogram<span class="w"> </span>files<span class="se">\u</span>vnc<span class="w"> </span>uvba<span class="se">\u</span>ltravnc<span class="se">\v</span>ncviewer<span class="w"> </span>/listen
+</code></pre></div>
+<h3 id="πλεονεκτήματα_2">Πλεονεκτήματα<a class="headerlink" href="#πλεονεκτήματα_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Όλα τα λειτουργικά συστήματα (windows, linux κτλ) διαθέτουν υποστήριξη του VNC.</li>
+<li>Το UltraVNC είναι ΕΛ/ΛΑΚ και δεν έχετε θέματα αδειοδότησης.</li>
+<li>Η επικοινωνία μέσω αντίστροφης σύνδεσης επιτρέπεται χωρίς να απαιτεί πρόβλημα με τους περιορισμούς ασφαλείας του Π.Σ.Δ. (δεν υπάρχει ανοιχτή θύρα TCP 5900 με πρόσβαση από το διαδίκτυο).</li>
+<li>Ο εξυπηρετητής δέχεται σύνδεση μόνο από τη συσκευή με IP διεύθυνση αυτήν που ξεκινά να συνδεθεί (άρα υπάρχει ασφάλεια).</li>
+</ul>
+<h3 id="μειονεκτήματα_2">Μειονεκτήματα<a class="headerlink" href="#μειονεκτήματα_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Το πρωτόκολλο VNC έχει αρκετές ευπάθειες και για αυτό το λόγο δεν θα πρέπει να το αφήνετε ενεργό στον εξυπηρετητή σαν υπηρεσία (service). Θα το ενεργοποιείτε όταν επιθυμείτε απομακρυσμένη πρόσβαση.</li>
+<li>Θα πρέπει να γνωρίζετε την IP διεύθυνση του Η/Υ από τον οποίο επιθυμείτε να έχετε πρόσβαση προς τον εξυπηρετητή του Σ.Ε.Π.Ε.Η.Υ.</li>
+<li>Είναι σχετικά πολύπλοκη η διαδικασία (απαιτεί τεχνικές γνώσεις) αν δεν έχετε σταθερή πραγματική IP διεύθυνση να συνδεθείτε από το σπίτι σας (βλ. συμβουλή που ακολουθεί).</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Συμβουλή</p>
+<p>Εάν πρόκειται για τον Η/Υ του σπιτιού σας, επειδή συνήθως δεν έχει σταθερή πραγματική IP, θα πρέπει:
+- να έχετε πρόσβαση σε υπηρεσία <a href="https://en.wikipedia.org/wiki/Dynamic_DNS">Dynamic DNS</a> (DDNS) και να την ορίσετε στο CPE του σπιτιού σας.
+- να ορίστε στο CPE προώθηση της θύρας <a href="https://en.wikipedia.org/wiki/Port_forwarding">(port forwarding)</a> TCP 5500 (η θύρα που "ακούει" ο ultravnc πελάτης) στην ιδιωτική IP διεύθυνση του Η/Υ σας στο σπίτι.
+- στον εξυπηρετητή του Σ.Ε.Π.Ε.Η.Υ. να ορίσετε να γίνει σύνδεση προς το dynamic dns όνομα του Η/Υ του σπιτιού σας.</p>
+</div>
+<h2 id="πρόσβαση-μέσω-της-εφαρμογής-rustdesk">Πρόσβαση μέσω της εφαρμογής RustDesk<a class="headerlink" href="#πρόσβαση-μέσω-της-εφαρμογής-rustdesk" title="Permanent link">&para;</a></h2>
+<p>Το 'RustDesk' είναι μία ΕΛ/ΛΑΚ εφαρμογή με λειτουργικότητα αντίστοιχη του 'Anydesk'. Είναι διαθέσιμο για Windows, Ubuntu, Mac, Android και υποστηρίζει x86-64 &amp; ARM64 αρχιτεκτονικές επεξεργαστών. Είναι δωρεάν αν αξιοποιηθεί σε συνεργασία με την ΕΛ/ΛΑΚ εφαρμογή του εξυπηρετητή 'RustDesk Server OSS'.
+Η εφαρμογή πελάτη είναι διαθέσιμη στο <a href="https://github.com/rustdesk/rustdesk">https://github.com/rustdesk/rustdesk</a> και η εφαρμογή εξυπηρετητή είναι διαθέσιμη στο <a href="https://github.com/rustdesk/rustdesk-server">https://github.com/rustdesk/rustdesk-server</a></p>
+<h3 id="πλεονεκτήματα_3">Πλεονεκτήματα<a class="headerlink" href="#πλεονεκτήματα_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Υποστηρίζονται όλα τα γνωστά λειτουργικά συστήματα (windows, linux, MacOS κτλ).</li>
+<li>Είναι ΕΛ/ΛΑΚ</li>
+<li>Δεν υπάρχει κάποιος 3ος που πρέπει να συνδεθούν οι δύο σταθμοί για να επικοινωνήσουν. Ο εξυπηρετητής "τρέχει" στο χώρο που επιθυμούμε.</li>
+</ul>
+<h3 id="αρνητικά">Αρνητικά<a class="headerlink" href="#αρνητικά" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Θα πρέπει να εγκατασταθεί και ο εξυπηρετητής σε κάποιο δίκτυο προσβάσιμο από τα δίκτυα των σχολείων (πχ στο γραφείο ΠληΝεΤ ή σε μια πραγματική IP στο διαδίκτυο).</li>
+<li>Δεν είναι πολύ γνωστή σαν εφαρμογή σε σχέση με τις προηγούμενες.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2008-2026 the <a href="https://ts.sch.gr">Ομάδα Τεχνικής Στήριξης</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["todo-navigation.instant", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0391\u03bd\u03c4\u03b9\u03b3\u03c1\u03ac\u03c6\u03b7\u03ba\u03b5 \u03c3\u03c4\u03bf \u03c0\u03c1\u03cc\u03c7\u03b5\u03b9\u03c1\u03bf", "clipboard.copy": "\u0391\u03bd\u03c4\u03b9\u03b3\u03c1\u03b1\u03c6\u03ae \u03c3\u03c4\u03bf \u03c0\u03c1\u03cc\u03c7\u03b5\u03b9\u03c1\u03bf", "search.result.more.one": "1 \u03b1\u03ba\u03cc\u03bc\u03b1 \u03c3\u03b5 \u03b1\u03c5\u03c4\u03ae\u03bd \u03c4\u03b7 \u03c3\u03b5\u03bb\u03af\u03b4\u03b1", "search.result.more.other": "# \u03b1\u03ba\u03cc\u03bc\u03b1 \u03c3\u03b5 \u03b1\u03c5\u03c4\u03ae\u03bd \u03c4\u03b7 \u03c3\u03b5\u03bb\u03af\u03b4\u03b1", "search.result.none": "\u03b4\u03b5\u03bd \u03b2\u03c1\u03ae\u03ba\u03b5 \u03ba\u03ac\u03c0\u03bf\u03b9\u03bf \u03ad\u03b3\u03b3\u03c1\u03b1\u03c6\u03bf", "search.result.one": "1 \u03ad\u03b3\u03b3\u03c1\u03b1\u03c6\u03bf \u03c0\u03bf\u03c5 \u03c4\u03b1\u03b9\u03c1\u03b9\u03ac\u03b6\u03b5\u03b9", "search.result.other": "# \u03ad\u03b3\u03b3\u03c1\u03b1\u03c6\u03b1 \u03c0\u03bf\u03c5 \u03c4\u03b1\u03b9\u03c1\u03b9\u03ac\u03b6\u03bf\u03c5\u03bd", "search.result.placeholder": "\u03a0\u03bb\u03b7\u03ba\u03c4\u03c1\u03bf\u03bb\u03bf\u03b3\u03ae\u03c3\u03c4\u03b5 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03b1\u03c1\u03c7\u03af\u03c3\u03b5\u03b9 \u03b7 \u03b1\u03bd\u03b1\u03b6\u03ae\u03c4\u03b7\u03c3\u03b7", "search.result.term.missing": "\u039b\u03b5\u03af\u03c0\u03b5\u03b9", "select.version": "\u0395\u03c0\u03b9\u03bb\u03bf\u03b3\u03ae \u03ad\u03ba\u03b4\u03bf\u03c3\u03b7\u03c2"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
