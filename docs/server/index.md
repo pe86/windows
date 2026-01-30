@@ -9,7 +9,7 @@
 
 - [Ελάχιστες Απαιτήσεις υλικού](requirements.md)
 - [Έλεγχος Συμβατότητας υλικού εξυπηρετητή](compatibility.md)
-- [Χειροκίνητη Eγκατάσταση](installation/index.md) ή [Αυτοματοποιημένη Εγκατάσταση](installation/unattended/index.md) ενός εξυπηρετητή Windows
+- [Eγκατάσταση ενός εξυπηρετητή Windows](installation/index.md)
 - [Βασικές ρυθμίσεις ενός εξυπηρετητή Windows](basic-settings/index.md)
 
 ## Μετέπειτα ενέργειες
