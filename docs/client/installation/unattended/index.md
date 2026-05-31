@@ -7,7 +7,7 @@
 
 - Κατεβάστε, αποσυμπιέστε και αντιγράψτε το [αρχείο xml αυτοματοποιημένης εγκατάστασης](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/archeio-automatopoiemenes-enkatastases-windows-11-autounattendxml/) στο usb stick που έχετε δημιουργήσει με την εγκατάσταση των windows 11, στον ριζικό (root) φάκελο.
 
-[![](01-autounattend.xml-copy-to-usb.png)](01-autounattend.xml-copy-to-usb.png)
+[![copy autounattend.xml to usb](01-autounattend.xml-copy-to-usb.png)](01-autounattend.xml-copy-to-usb.png)
 
 - Τοποθετήστε το USB stick στον προς εγκατάσταση Η/Υ.
 - Πραγματοποιήστε εκκίνηση του Η/Υ από το USB stick
