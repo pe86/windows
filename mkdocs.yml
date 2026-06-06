@@ -86,7 +86,7 @@ nav:
           - client/software.md
           - client/peripherals.md
           - client/create-users.md
-      - Windows Server 2022:
+      - Windows Server 2025:
         - server/index.md
         - server/requirements.md
         - server/compatibility.md

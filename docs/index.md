@@ -42,6 +42,6 @@ computing](https://en.wikipedia.org/wiki/Centralized_computing)).
 - στο μοντέλο [centralized-computing](server-based/index.md) (με εξυπηρετητή Remote Desktop Session Host).
 
 !!! info "Πληροφορία"
-    Σε περίπτωση που επιθυμείτε αυτόνομη εγκατάσταση (standalone) ενός σταθμού εργασίας ή ενός εξυπηρετητή με Windows ακολουθήστε τις οδηγίες για [Windows 11](client/index.md) και για [Windows Server 2022](server/index.md).
+    Σε περίπτωση που επιθυμείτε αυτόνομη εγκατάσταση (standalone) ενός σταθμού εργασίας ή ενός εξυπηρετητή με Windows ακολουθήστε τις οδηγίες για [Windows 11](client/index.md) και για [Windows Server 2025](server/index.md).
 
     Οι οδηγίες αυτές αποτελούν το 1ο βήμα για την υλοποίηση των προτεινόμενων αρχιτεκτονικών.
