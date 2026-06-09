@@ -28,7 +28,7 @@
 
 - Aποδεχθείτε η εγκατάσταση να διαγράψει τα αρχεία, τις εφαρμογές και τις ρυθμίσεις:
 
-  ***☑ Ι agree everything will be deleted including files, apps, and settings*** 
+  ***☑ Ι agree everything will be deleted including files, apps, and settings***
 
 - Επιλέξτε ***Next***.
 
