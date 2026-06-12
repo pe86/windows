@@ -137,7 +137,7 @@ OK. Ο windows server θα σας ζητήσει να πραγματοποιήσ
 απαραίτητο κάτι τέτοιο καθώς και το διάστημα που μπορεί να χρησιμοποιηθούν τα
 Windows Server χωρίς ενεργοποίηση. Η βέλτιστη μέθοδος για τους
 εξυπηρετητές των σχολικών εργαστηρίων είναι να πραγματοποιείται η διαδικασία
-μέσω διαδικτύου.
+μέσω διαδικτύου. Στο **Change product key** επιλέξτε ***Change***.
 
 !!! tip "Γραμμή εντολών: Ενεργοποίηση άδειας"
     ```shell
@@ -146,12 +146,9 @@ Windows Server χωρίς ενεργοποίηση. Η βέλτιστη μέθο
 
 ## 04. Εγκατάσταση ενημερώσεων
 [![Έλεγχος ενημερώσεων](23-check-4-updates.png)](23-check-4-updates.png)
-[![Εγκατάσταση ενημερώσεων](24-install-updates.png)](24-install-updates.png)
-Απαραίτητη προϋπόθεση για την εύρυθμη λειτουργία του λειτουργικού συστήματος είναι η εγκατάσταση όλων των κρίσιμων ενημερώσεων. 
+Απαραίτητη προϋπόθεση για την εύρυθμη λειτουργία του λειτουργικού συστήματος είναι η εγκατάσταση όλων των κρίσιμων ενημερώσεων.
 
 Από την εφαρμογή `Server Manager` επιλέγοντας ***Local Server*** και κατόπιν ***Download Updates only, using Windows Update*** θα πραγματοποιηθεί σύνδεση στο Windows Update και θα "κατέβουν" και θα εγκατασταθούν τα απαραίτητα updates.
-
-Επιλέξτε ***Install now*** για την άμεση εγκατάσταση των ενημερώσεων.
 
 !!! info clear "Πληροφορία"
     Η εκ προοιμίου συμπεριφορά των ενημερώσεων είναι να κατεβαίνουν χωρίς να
@@ -240,15 +237,12 @@ Windows Server χωρίς ενεργοποίηση. Η βέλτιστη μέθο
 ### Ενεργοποίηση διαμοιρασμού αρχείων και εκτυπωτών στο τοπικό δίκτυο
 
 [![Enable File and Printer Sharing screenshot](04-Enable-File-and-Print-Sharing.png)](04-Enable-File-and-Print-Sharing.png)
-[![Enable File and Printer Sharing step 2 screenshot](05-Enable-File-and-Print-Sharing-2.png)](05-Enable-File-and-Print-Sharing-2.png)
+[![Enable File and Printer Sharing step 2 screenshot](05-Enable-File-and-Print-Sharing.png)](05-Enable-File-and-Print-Sharing.png)
 
 Αρχικά θα πρέπει να ενεργοποιηθεί ο διαμοιρασμός αρχείων και εκτυπωτών για το τοπικό δίκτυο που έχει χαρακτηριστεί ιδιωτικό (private) [σε προηγούμενο βήμα](../../server/basic-settings/index.md#private-network).
 
-- Ανοίξτε τον Πίνακα Ελέγχου (Control Panel).
-- Στην ενότητα **Network and Internet**, επιλέξτε ***View Network Status and tasks***
-
-- Επιλέξτε ***Change Advanced sharing settings***
-- Στο ιδιωτικό προφιλ, επιλέξτε **Turn on file and printer sharing**
+- Επιλέγετε με ***Click πάνω στο σημαιάκι των Windows*** ▸ ***Ρυθμίσεις*** (εικονίδιο γραναζιού) ▸ ***Network and Internet***  ▸ ***Advanced network settings***  ▸ ***Change Advanced sharing settings***
+- Στο ιδιωτικό προφίλ (Private networks), επιλέξτε **Network discover** ***On*** και **File and printer sharing** ***On***.
 
 !!! powershell clear "PowerShell: Ενεργοποίηση File and Print Sharing"
     ```shell
