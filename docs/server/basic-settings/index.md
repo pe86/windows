@@ -33,8 +33,8 @@
 
 !!! Info clear "Πληροφορία"
     Εναλλακτικά μπορείτε να "τρέξετε" το `Server Manager` με έναν από τους ακόλουθους τρόπους:
-    - Το  ***Start μενού***  ▸  ***Computer*** ▸ ***δεξί-click*** ▸  ***Manage***
-    - Το  ***Start μενού***  ▸  ***Administrative Tools***  ▸  ***Server Manager***
+
+    - Στην αναζήτηση των Windows ***Search***  ▸  πληκτρολογήστε ***Server Manager***
     - Πληκτρολογώντας **`Windows Key`**+**`R`** και κατόπιν **`servermanager`**
 
 ### Ορισμός δικτυακών παραμέτρων TCP/IP {#server-ip-dns-settings} [![TCP/IP Properties](18-tcpip-properties.png)](18-tcpip-properties.png)
@@ -113,6 +113,7 @@ OK. Ο windows server θα σας ζητήσει να πραγματοποιήσ
 Μπορείτε να δημιουργήσετε τις προτεινόμενες διαμερίσεις όπως έχει ήδη αναφερθεί στην ενότητα εγκατάστασης του εξυπηρετητή - ρύθμισης των διαμερίσεων.
 
 Για τη δημιουργία διαμέρισης για την αποθήκευση των αρχείων των χρηστών και των κοινόχρηστων αρχείων:
+
 - Από το εργαλείο διαχείρισης `Server Manager` Επιλέγοντας από το μενού ***Tools***  ▸ ***Computer Management*** και κατόπιν επιλέγοντας ***Disk Management***.
 - Επιλέγετε το δίσκο που θα δημιουργηθεί η διαμέριση πχ ***Disk1***
 - Επιλέγετε το μη δεσμευμένο χώρο του για τη δημιουργία της διαμέρισης ***Unallocated***
@@ -241,8 +242,8 @@ Windows Server χωρίς ενεργοποίηση. Η βέλτιστη μέθο
 
 Αρχικά θα πρέπει να ενεργοποιηθεί ο διαμοιρασμός αρχείων και εκτυπωτών για το τοπικό δίκτυο που έχει χαρακτηριστεί ιδιωτικό (private) [σε προηγούμενο βήμα](../../server/basic-settings/index.md#private-network).
 
-- Επιλέγετε με ***Click πάνω στο σημαιάκι των Windows*** ▸ ***Ρυθμίσεις*** (εικονίδιο γραναζιού) ▸ ***Network and Internet***  ▸ ***Advanced network settings***  ▸ ***Change Advanced sharing settings***
-- Στο ιδιωτικό προφίλ (Private networks), επιλέξτε **Network discover** ***On*** και **File and printer sharing** ***On***.
+- Επιλέγετε με ***Click πάνω στο σημαιάκι των Windows*** ▸ ***Ρυθμίσεις*** (εικονίδιο γραναζιού) ▸ ***Network and Internet***  ▸ ***Advanced network settings***  ▸ ***Advanced sharing settings***
+- Στο ιδιωτικό προφίλ (Private networks), επιλέξτε **Network discovery** ***On*** και **File and printer sharing** ***On***.
 
 !!! powershell clear "PowerShell: Ενεργοποίηση File and Print Sharing"
     ```shell
