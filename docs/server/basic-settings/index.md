@@ -24,7 +24,9 @@
     ```
     Τα στοιχεία αυτά θα σας φανούν χρήσιμα σε επόμενο βήμα.
 
-### Το εργαλείο Server Manager[![Server Manager](17b-Server-Manager.png)](17b-Server-Manager.png)
+### Το εργαλείο Server Manager {#server-manager}
+
+[![Server Manager](17b-Server-Manager.png)](17b-Server-Manager.png)
 
 Στη συνέχεια με τη χρήση του εργαλείου `Server Manager`, το οποίο είναι ένα
   Microsoft Management Console (MMC) για τη διαχείριση του εξυπηρετητή και
@@ -212,9 +214,6 @@ Windows Server χωρίς ενεργοποίηση. Η βέλτιστη μέθο
 [![Enable Remote Desktop screenshot](01-enable-remote-desktop.png)](01-enable-remote-desktop.png)
 
 - Από το `Server Manager` επιλέγουμε ***Local Server*** και στη συνέχεια ***Remote Desktop: Disabled*** ώστε να την ενεργοποιήσουμε.
-
-!!! tip "Συμβουλή"
-    Εναλλακτικά με ***δεξί κλικ*** στο  ***This PC***  επιλέγουμε  ***Properties*** ▸ ***Remote Settings***
 
 [![Allow Firewall Remote Desktop screenshot](02-allow-fw-remote-desktop-.png)](02-allow-fw-remote-desktop-.png)
 
