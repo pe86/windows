@@ -34,7 +34,7 @@ plugins:
       copyright: Copyright © 2008-2026 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Windows
       cover_subtitle: Οδηγός εγκατάστασης, διαμόρφωσης & χρήσης
-      debug_html: false
+      # debug_html: false
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 3
@@ -86,7 +86,7 @@ nav:
           - client/software.md
           - client/peripherals.md
           - client/create-users.md
-      - Windows Server-2025:
+      - Windows Server 2025:
         - server/index.md
         - server/requirements.md
         - server/compatibility.md
