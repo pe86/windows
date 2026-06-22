@@ -13,7 +13,7 @@ pip install mkdocs-minify-plugin
 pip install mkdocs-material-extensions
 pip install mkdocs-redirects
 pip install mkdocs-section-index
-pip install mkdocs-with-pdf
+pip install mkdocs-to-pdf
 # Downgrade weasyprint to version 62 due to the image.png#right issue
 # pip install --force-reinstall -v weasyprint==62.0
 # Use a different site_url for ts.sch.gr/wiki/windows vs pe86.github.io/windows
