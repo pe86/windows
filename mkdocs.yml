@@ -29,7 +29,7 @@ plugins:
   - minify:
       minify_html: false
   - search
-  - with-pdf:
+  - to-pdf:
       author: Έκδοση pdf του https://ts.sch.gr/wiki/windows
       copyright: Copyright © 2008-2026 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Windows
@@ -94,7 +94,7 @@ nav:
           - server/installation/index.md
           - server/installation/manual/index.md
           - server/installation/unattended/index.md
-          # - server/installation/partitioning.md
+          - server/installation/partitioning.md
         - server/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
           - server/software.md
