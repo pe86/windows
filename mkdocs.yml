@@ -34,7 +34,7 @@ plugins:
       copyright: Copyright © 2008-2026 Τεχνική Στήριξη ΣΕΠΕΗΥ
       cover_title: ΣΕΠΕΗΥ με Windows
       cover_subtitle: Οδηγός εγκατάστασης, διαμόρφωσης & χρήσης
-      # debug_html: false
+      debug_html: false
       enabled_if_env: ENABLE_PDF_EXPORT
       heading_shift: true
       ordered_chapter_level: 3
@@ -94,7 +94,7 @@ nav:
           - server/installation/index.md
           - server/installation/manual/index.md
           - server/installation/unattended/index.md
-          - server/installation/partitioning.md
+          # - server/installation/partitioning.md
         - server/basic-settings/index.md
         - Μετέπειτα Ενέργειες:
           - server/software.md
