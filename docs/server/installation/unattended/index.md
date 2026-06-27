@@ -18,7 +18,7 @@
 
 ## Εκκίνηση του εξυπηρετητή από το USB Stick που δημουργήσατε
 
-![Windows setup loading files](01-unattended-loading-files.png)](01-unattended-loading-files.png)
+[![Windows setup loading files](01-unattended-installation-loading-files.png)](01-unattended-installation-loading-files.png)
 
 - Τοποθετήστε το USB stick στον προς εγκατάσταση Η/Υ και πραγματοποιήστε εκκίνηση του Η/Υ από το USB stick.
 - Η εγκατάσταση ξεκινά με τη φόρτωση αρχείων από το USB εγκατάστασης
