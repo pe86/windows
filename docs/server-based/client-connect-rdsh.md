@@ -14,7 +14,7 @@
 
 Εάν οι σταθμοί εργασίας διαθέτουν λειτουργικό σύστημα Ubuntu μπορείτε να συνδεθείτε στον εξυπηρετητή RDSH χρησιμοποιώντας τις εφαρμογές:
 
-`Remina`
+### Remina
 
 Η εφαρμογή Remmina μπορεί να εγκατασταθεί με την εντολή:
 
@@ -22,9 +22,9 @@
 sudo apt install remmina
 ```
 
-[![Δημιουργία σύνδεσης Remmina](remmina-create-connection.png)](remmina-create-connection.png)
+Κατόπιν την καλείτε στο Gnome μενού  ***Μενού***  ▸  ***Διαδίκτυο*** με όνομα `Remmina`.
 
-και μπορείτε να τη βρείτε στο Gnome μενού  ***Μενού***  ▸  ***Διαδίκτυο*** με όνομα `Remmina`.
+[![Δημιουργία σύνδεσης Remmina](remmina-create-connection.png)](remmina-create-connection.png)
 
 Στο παράθυρο της εφαρμογής:
 
@@ -34,9 +34,9 @@ sudo apt install remmina
 - στην ανάλυση επιλέξτε ***Χρησιμοποιήστε μέγεθος ανάλυσης πελάτη***,
 - πατήστε το πλήκτρο **`Save and Connect`**.
 
-`Freerdp-X11`
+### Freerdp-X11
 
-Η εφαρμογή xfreerpd3 μπορεί να εγκατασταθεί από τα αποθετήρια του ubuntu, με την εντολή:
+Η εφαρμογή `xfreerpd3` μπορεί να εγκατασταθεί από τα αποθετήρια του ubuntu, με την εντολή:
 
 ```shell
 sudo apt install freerdp3-x11
