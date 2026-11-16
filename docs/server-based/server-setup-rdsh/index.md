@@ -27,12 +27,12 @@
 
 [![](03-rds-role.png)](03-rds-role.png)
 
-- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`** ▸ ***Administrative Tools***
+- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`**.
 - Επιλέξτε το σύνδεσμο **Add roles and features** από την διεπαφή που προσφέρει το εργαλείο `Server Manager` με την έναρξή του.
 - Στην αρχική διεπαφή **Add Roles and Features Wizard** επιλέγουμε ***Next***.
 - Κατόπιν αφήνουμε επιλεγμένο το  **Role-based or feature-based installation** επιλέγουμε ***Next***.
 - Αφήστε επιλεγμένο το **Select a server from the server pool** και  επιλέξτε τον εξυπηρετητή σας (πχ srv-2lyk-mesol) και κατόπιν επιλέξτε ***Next***.
-- Στο παράθυρο **Select server roles** επιλέξτε την εγκατάσταση του ρόλου των **Remote Desktop Services** και και κατόπιν επιλέξτε ***Next***.
+- Στο παράθυρο **Select server roles** επιλέξτε την εγκατάσταση του ρόλου των **Remote Desktop Services**
 - Στο παράθυρο **Select Features** επιλέξτε ***Next***.
 - Στο παράθυρο **Remote Desktop Services** επιλέξτε ***Next***.
 - Στο παράθυρο **Select role services** επιλέξτε ***Remote Desktop Session Host*** και ***Add Features***.
