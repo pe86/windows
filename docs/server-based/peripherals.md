@@ -14,11 +14,19 @@
 
 Το RDS Easy Print στην ουσία είναι ένας ενδιάμεσος (proxy) που ανακατευθύνει όλες τις εργασίες που σχετίζονται με την εκτύπωση στο περιβάλλον του χρήστη στο σταθμό εργασίας του. Αυτός είναι και ο λόγος που δεν απαιτείται η εγκατάσταση των οδηγών των εκτυπωτών του σταθμού εργασίας στον RDS Host.
 
+Αντί να δημιουργείται λοιπόν στον εξυπηρετητή ένα UI που θα έχει τις προτιμήσεις του χρήστη για αριθμό αντιγράφων, εκτύπωση οριζόντια ή κάθετη κτλ, το RDS Easy Print μεταφέρει ("πάνω" από το περιβάλλον της απομακρυσμένης σύνδεσης) τα παραπάνω στο UI του σταθμού εργασίας. Αυτό έχει σαν αποτέλεσμα ο χρήστης να έχει το δικό του περιβάλλον με τις επιλογές του.
+
 [![The highlighted printer entry is HP Color LaserJet Pro MFP 176n ColorMFP MFP 176n shown as redirected. The interface uses a light gray background and a red oval around the highlighted printer entry, emphasizing the redirected printer in a Windows desktop environment.](easyPrint-redirection.png)](easyPrint-redirection.png)
 
-Αντί να δημιουργείται λοιπόν στον εξυπηρετητή ένα UI που θα έχει τις προτιμήσεις του χρήστη για αριθμό αντιγράφων, εκτύπωση οριζόντια ή κάθετη κτλ, το RDS Easy Print μεταφέρει ("πάνω από το περιβάλλον της απομακρυσμένης σύνδεσης) τα παραπάνω στο UI του σταθμού εργασίας. Αυτό έχει σαν αποτέλεσμα ο χρήστης να έχει το δικό του περιβάλλον με τις επιλογές του.
+Στον RDSH Windows εξυπηρετητή, κάθε φορά που δημιουργείται ένα RDP session δημιουργείται, για όσο διαρκεί το rdp session, ένας νέος εκτυπωτής στον εξυπηρετητή που ανακατευθύνει την εκτύπωση στον τοπικό εκτυπωτή του PC από το οποίο πραγματοποιήθηκε το rdp. Αυτός είναι ο εκτυπωτής που χρησιμοποιεί τον driver RDS Easy Print, όπως φαίνεται και στην εικόνα από το rdp session στον RDSH εξυπηρετητή.
 
-Στον RDSH Windows εξυπηρετητή, κάθε φορά που δημιουργείται ένα RDP session δημιουργείται ένας νέος εκτυπωτής που ανακατευθύνει την εκτύπωση στο PC από το οποίο πραγματοποιήθηκε το rdp. Αυτός είναι ο εκτυπωτής που χρησιμοποιεί το RDS Easy Print.
+!!! tip "Συμβουλή"
+    Με την εντολή powershell get-printer στον εξυπηρετητή θα δούμε τους εκτυπωτές που έχουν driver RDS Easy Print.
+    ``` Powershell
+    PS C:\Users\user01> Get-Printer
+    Name                    ComputerName    Type    DriverName              PortName    Shared
+    HP Color Laserjet Pro...                Local   Remote Desktop Easy Print   TS001
+    ```
 
 ### Ρύθμιση του Easy Print στον RDSH εξυπηρετητή
 
