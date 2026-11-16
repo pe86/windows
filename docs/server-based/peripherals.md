@@ -18,14 +18,15 @@
 
 [![The highlighted printer entry is HP Color LaserJet Pro MFP 176n ColorMFP MFP 176n shown as redirected. The interface uses a light gray background and a red oval around the highlighted printer entry, emphasizing the redirected printer in a Windows desktop environment.](easyPrint-redirection.png)](easyPrint-redirection.png)
 
-Στον RDSH Windows εξυπηρετητή, κάθε φορά που δημιουργείται ένα RDP session δημιουργείται, για όσο διαρκεί το rdp session, ένας νέος εκτυπωτής στον εξυπηρετητή που ανακατευθύνει την εκτύπωση στον τοπικό εκτυπωτή του PC από το οποίο πραγματοποιήθηκε το rdp. Αυτός είναι ο εκτυπωτής που χρησιμοποιεί τον driver RDS Easy Print, όπως φαίνεται και στην εικόνα από το rdp session στον RDSH εξυπηρετητή.
+Στον RDSH Windows εξυπηρετητή, για κάθε RDP session και για όσο διαρκεί αυτό, δημιουργείται ένας νέος εκτυπωτής που ανακατευθύνει την εκτύπωση στον τοπικό εκτυπωτή του PC από το οποίο πραγματοποιήθηκε το RDP, αξιοποιώντας τον driver RDS Easy Print.
 
 !!! tip "Συμβουλή"
-    Με την εντολή powershell get-printer στον εξυπηρετητή θα δούμε τους εκτυπωτές που έχουν driver RDS Easy Print.
+    Στο powershell του εξυπηρετητή, με την εντολή Get-Printer θα δούμε τους εκτυπωτές που έχουν driver RDS Easy Print, για την RDP σύνδεσή μας.
     ``` Powershell
     PS C:\Users\user01> Get-Printer
-    Name                    ComputerName    Type    DriverName              PortName    Shared
-    HP Color Laserjet Pro...                Local   Remote Desktop Easy Print   TS001
+    Name                    ComputerName    Type    DriverName                  PortName    Shared
+    ----                    ------------    ----    ----------                  --------    ------
+    HP Color Laserjet Pro...                Local   Remote Desktop Easy Print   TS001       False
     ```
 
 ### Ρύθμιση του Easy Print στον RDSH εξυπηρετητή
