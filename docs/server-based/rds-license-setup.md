@@ -18,30 +18,29 @@
 
 ## Εγκατάσταση ρόλου του Remote Desktop Licensing
 
-- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`** ▸ ***Administrative Tools***
+- Εκκινήστε την εφαρμογή `Server Manager` από το μενού **`Start`**.
 
 - Επιλέξτε το σύνδεσμο **Add roles and features** από την διεπαφή που προσφέρει το εργαλείο `Server Manager` με την έναρξή του.
 - Στην αρχική διεπαφή **Add Roles and Features Wizard** επιλέγουμε ***Next***.
 - Κατόπιν αφήνουμε επιλεγμένο το  **Role-based or feature-based installation** επιλέγουμε ***Next***.
 - Αφήστε επιλεγμένο το **Select a server from the server pool** και  επιλέξτε τον εξυπηρετητή σας (πχ srv-2lyk-mesol) και κατόπιν επιλέξτε ***Next***.
-- Στο παράθυρο **Select server roles** επιλέξτε την εγκατάσταση του ρόλου των **Remote Desktop Services** και και κατόπιν επιλέξτε ***Next***.
-- Στο παράθυρο **Select Features** επιλέξτε ***Next***.
-- Στο παράθυρο **Remote Desktop Services** επιλέξτε ***Next***.
-- Στο παράθυρο **Select role services** επιλέξτε **`Remote Desktop Licensing`** και ***Add Features***.
+- Στο παράθυρο **Select server roles** επιλέξτε την εγκατάσταση του ρόλου των **Remote Desktop Services** και και κατόπιν επιλέξτε **`Remote Desktop Licensing`**.
+- Στο παράθυρο **Add Roles and Features Wizard** επιλέξτε **`Add Features`** και κατόπιν επιλέξτε ***Next***.
+- Στο παράθυρο **Select features** επιλέξτε ***Next***.
 - Στο παράθυρο **Confirm installation selections** επιλέξτε ***Install*** ώστε να ξεκινήσει η εγκατάσταση.
 
 Εναλλακτικά, μπορείτε να εγκαταστήσετε το ρόλο του RDSH με χρήση PowerShell:
 
 !!! powershell clear "PowerShell: Εγκατάσταση του ρόλου RD License Server"
     ```shell
-    Add-WindowsFeature RDS-Licensing –IncludeAllSubFeature -IncludeManagementTools
+    Install-WindowsFeature RDS-Licensing -IncludeManagementTools -Restart
     ```
 
 ## Ενεργοποίηση του License Server
 
 Η ενεργοποίηση του εξυπηρετητή αδειών πραγματοποιείται από την εφαρμογή `Remote Desktop Licensing Manager`. Για να ενεργοποιήσετε τον License Server, θα πρέπει να έχετε **σύνδεση στο διαδίκτυο** και να ακολουθήσετε τα βήματα:
 
-- Εκκινήστε την εφαρμογή `Remote Desktop Licensing Manager` από το μενού  ***Start*** ▸ ***Administrative Tools*** ▸ ***Remote Desktop Services***.
+- Εκκινήστε την εφαρμογή `Remote Desktop Licensing Manager` από το ***Start*** ▸ ***Server Manager*** και στο μενού ***Tools*** ▸ ***Remote Desktop Services***.
 - Επιλέξτε τον εξυπηρετητή που επιθυμείτε από την εμφανιζόμενη λίστα εξυπηρετητών και με δεξί κλικ επιλέξτε  **Activate Server**  από το αναδυόμενο μενού.
 - Στην πρώτη οθόνη της ενεργοποίησης **Welcome to the Activate Server Wizard** κάντε κλικ στο **Next**.
 - Στην επομένη οθόνη μην αλλάξετε τις προεπιλεγμένες επιλογές. Για να συνεχίστε πατήστε **Next**.
@@ -49,21 +48,22 @@
 - Στη 2η οθόνη **Company Information** δεν απαιτείται να συμπληρώσετε κανένα στοιχείο. Για να συνεχίστε πατήστε **Next**.
 - Στην οθόνη **Completing the Activate Server Wizard** διακρίνουμε δύο περιπτώσεις:
 
-    - Εάν δεν διαθέτε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να μην τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στη συνέχεια να κάνετε κλικ στην επιλογή **Finish**.
+    - Εάν δεν διαθέτετε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να μην τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στη συνέχεια να κάνετε κλικ στην επιλογή **Finish**.
     - Εάν διαθέτετε έγκυρη άδεια για την εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) θα πρέπει να τσεκάρετε την επιλογή **Start Install Licenses Wizard now** και στην συνέχεια να κάνετε κλικ στην επιλογή **Next**. Στην συνέχεια ακολουθήστε τα βήματα που περιγράφονται στις επόμενες ενότητες.
 
 ## Εγκατάσταση αδειών {#rds-license-setup}
 
 !!! warning "Προσοχή"
-    Αν δεν διαθέτε άδειες προσπεράστε την παρούσα ενότητα.
+    - Αν δεν διαθέτετε άδειες προσπεράστε την παρούσα ενότητα.
+    - Ακολουθήστε τα βήματα της ενότητας αν αρχικά είχατε ενεργοποιήσει τον License Server χωρίς να δηλώσετε άδειες.
 
 Η εγκατάσταση των Remote Desktop Services Client Access Licenses (RDS CALs) πραγματοποιείται από την εφαρμογή `Remote Desktop Licensing Manager`. Για να εγκαταστήσετε τις άδειες:
 
-- Εκκινήστε την εφαρμογή `Remote Desktop Licensing Manager` από το μενού  ***Start*** ▸ ***Administrative Tools*** ▸ ***Remote Desktop Services***.
+- Εκκινήστε την εφαρμογή `Remote Desktop Licensing Manager` από το μενού  ***Start*** ▸ ***Server Manager*** και στο μενού ***Tools*** ▸ ***Remote Desktop Services***.
 - Επιλέξτε τον εξυπηρετητή που επιθυμείτε από την εμφανιζόμενη λίστα εξυπηρετητών και με δεξί κλικ επιλέξτε **Install Licenses** από το αναδυόμενο μενού. Κατόπιν πατήστε **Next**.
-- Από την λίστα επιλογών του **License Program** επιλέξτε **`Open License`** και στην συνέχεια πατήστε **Next**.
+- Από την λίστα επιλογών του **License Program** επιλέξτε **`Open License`** ή **`School Agreement`** και στην συνέχεια πατήστε **Next**.
 - Στη διεπαφή που σας εμφανίζεται, πληκτρολογείτε τους κωδικούς της αδείας σας στο πεδίο **Authorization number** και στο πεδίο **License number** αντίστοιχα.
-- Τέλος, στην επόμενη οθόνη, στο πεδίο **Product version** επιλέγετε την έκδοση του λειτουργικού συστήματος που φέρει ο εξυπηρετητής (πχ: Windows Server 2019), στο πεδίο **License Type** επιλέγετε τον τύπο της άδειας πχ **`RDS Per Device CAL`** (για device cals) και στο πεδίο **Quantity** πληκτρολογείτε τον αριθμό των σταθμών εργασίας του εργαστηρίου σας. Στην συνέχεια κάντε κλικ στο **Next**. Στην τελική οθόνη που σας εμφανίζετε πατήστε **Finish**.
+- Τέλος, στην επόμενη οθόνη, στο πεδίο **Product version** επιλέγετε την έκδοση του λειτουργικού συστήματος που φέρει ο εξυπηρετητής (πχ: Windows Server 2025), στο πεδίο **License Type** επιλέγετε τον τύπο της άδειας πχ **`RDS Per Device CAL`** (για device cals) και στο πεδίο **Quantity** πληκτρολογείτε τον αριθμό των σταθμών εργασίας του εργαστηρίου σας. Στην συνέχεια κάντε κλικ στο **Next**. Στην τελική οθόνη που σας εμφανίζετε πατήστε **Finish**.
 - Μόλις ολοκληρωθεί η διαδικασία, θα πρέπει να επανεκκινήσετε τον Windows Server.
 
 ## Ενημέρωση RDSH εξυπηρετητή για τον εξυπηρετητή αδειών και τον τύπο των αδειών
