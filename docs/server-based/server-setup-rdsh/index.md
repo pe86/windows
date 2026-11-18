@@ -42,7 +42,7 @@
 
 !!! powershell clear "PowerShell: Εγκατάσταση του ρόλου RDSH"
     ```shell
-    Add-WindowsFeature rds-rd-server
+    Install-WindowsFeature RDS-RD-Server -IncludeManagementTools -Restart
     ```
 
 !!! tip "Συμβουλή"
